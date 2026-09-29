@@ -1,0 +1,57 @@
+{
+  "id": "FMA24496",
+  "name": "Calcaneus",
+  "slug": "calcaneus",
+  "elementsCount": 2,
+  "triangles": 2198,
+  "vertexCount": 1273,
+  "system": "skeletal",
+  "bounds": [
+    [
+      -0.10077450051903725,
+      -0.02470974950119853,
+      -0.035071700578555465
+    ],
+    [
+      0.10077450051903725,
+      0.02470974950119853,
+      0.035071700578555465
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.10078100115060806,
+      0.009620499797165394,
+      -0.07599490135908127
+    ],
+    [
+      0.10076799988746643,
+      0.059039998799562454,
+      -0.005851500201970339
+    ]
+  ],
+  "center": [
+    -0.00000650063157081604,
+    0.034330249298363924,
+    -0.040923200780525804
+  ],
+  "byteSize": 47620,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ3256",
+      "name": "Left calcaneus",
+      "conceptId": "FMA24498",
+      "system": "skeletal"
+    },
+    {
+      "index": 1,
+      "id": "FJ3360",
+      "name": "Right calcaneus",
+      "conceptId": "FMA24497",
+      "system": "skeletal"
+    }
+  ]
+}

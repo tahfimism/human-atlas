@@ -1,0 +1,57 @@
+{
+  "id": "FMA9613",
+  "name": "parietal bone",
+  "slug": "parietal_bone",
+  "elementsCount": 2,
+  "triangles": 7426,
+  "vertexCount": 5661,
+  "system": "skeletal",
+  "bounds": [
+    [
+      -0.07551850005984306,
+      -0.059205055236816406,
+      -0.07324779964983463
+    ],
+    [
+      0.07551850005984306,
+      0.059205055236816406,
+      0.07324779964983463
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.07618050277233124,
+      1.5959111452102661,
+      -0.11482959985733032
+    ],
+    [
+      0.07485649734735489,
+      1.714321255683899,
+      0.031665999442338943
+    ]
+  ],
+  "center": [
+    -0.0006620027124881744,
+    1.6551162004470825,
+    -0.04158180020749569
+  ],
+  "byteSize": 193088,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ3274",
+      "name": "Left parietal bone",
+      "conceptId": "FMA52789",
+      "system": "skeletal"
+    },
+    {
+      "index": 1,
+      "id": "FJ3380",
+      "name": "Right parietal bone",
+      "conceptId": "FMA52788",
+      "system": "skeletal"
+    }
+  ]
+}

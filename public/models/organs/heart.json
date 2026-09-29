@@ -1,0 +1,624 @@
+{
+  "id": "FMA7088",
+  "name": "heart",
+  "slug": "heart",
+  "elementsCount": 83,
+  "triangles": 15000,
+  "vertexCount": 11769,
+  "system": "cardiac",
+  "bounds": [
+    [
+      -0.05782430060207844,
+      -0.05228501558303833,
+      -0.05314460024237633
+    ],
+    [
+      0.05782430060207844,
+      0.05228501558303833,
+      0.05314460024237633
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.0362573005259037,
+      1.25304114818573,
+      -0.02977219969034195
+    ],
+    [
+      0.07939130067825317,
+      1.3576111793518066,
+      0.0765170007944107
+    ]
+  ],
+  "center": [
+    0.021567000076174736,
+    1.3053261637687683,
+    0.023372400552034378
+  ],
+  "byteSize": 397328,
+  "decimated": true,
+  "decimationError": 0.004472,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ2417",
+      "name": "Left anterior cusp of pulmonary valve",
+      "conceptId": "FMA7247",
+      "system": "cardiac"
+    },
+    {
+      "index": 1,
+      "id": "FJ2418",
+      "name": "Anterolateral head of lateral papillary muscle of left ventricle",
+      "conceptId": "FMA7265",
+      "system": "muscular"
+    },
+    {
+      "index": 2,
+      "id": "FJ2419",
+      "name": "Anterior papillary muscle of right ventricle",
+      "conceptId": "FMA7260",
+      "system": "muscular"
+    },
+    {
+      "index": 3,
+      "id": "FJ2420",
+      "name": "Anterior leaflet of mitral valve",
+      "conceptId": "FMA7242",
+      "system": "cardiac"
+    },
+    {
+      "index": 4,
+      "id": "FJ2421",
+      "name": "Anterior leaflet of tricuspid valve",
+      "conceptId": "FMA7238",
+      "system": "cardiac"
+    },
+    {
+      "index": 5,
+      "id": "FJ2422",
+      "name": "Cavity of left ventricle",
+      "conceptId": "FMA9466",
+      "system": "cardiac"
+    },
+    {
+      "index": 6,
+      "id": "FJ2423",
+      "name": "Cavity of right ventricle",
+      "conceptId": "FMA9291",
+      "system": "cardiac"
+    },
+    {
+      "index": 7,
+      "id": "FJ2424",
+      "name": "Cavity of right atrium",
+      "conceptId": "FMA11359",
+      "system": "cardiac"
+    },
+    {
+      "index": 8,
+      "id": "FJ2425",
+      "name": "Cavity of left atrium",
+      "conceptId": "FMA9465",
+      "system": "cardiac"
+    },
+    {
+      "index": 9,
+      "id": "FJ2426",
+      "name": "Left posterior cusp of aortic valve",
+      "conceptId": "FMA7254",
+      "system": "cardiac"
+    },
+    {
+      "index": 10,
+      "id": "FJ2427",
+      "name": "Posterior cusp of pulmonary valve",
+      "conceptId": "FMA7250",
+      "system": "cardiac"
+    },
+    {
+      "index": 11,
+      "id": "FJ2429",
+      "name": "Lateral papillary muscle of left ventricle",
+      "conceptId": "FMA7264",
+      "system": "muscular"
+    },
+    {
+      "index": 12,
+      "id": "FJ2430",
+      "name": "Posterior papillary muscle of right ventricle",
+      "conceptId": "FMA7261",
+      "system": "muscular"
+    },
+    {
+      "index": 13,
+      "id": "FJ2431",
+      "name": "Right posterior cusp of aortic valve",
+      "conceptId": "FMA7252",
+      "system": "cardiac"
+    },
+    {
+      "index": 14,
+      "id": "FJ2432",
+      "name": "Posterior leaflet of mitral valve",
+      "conceptId": "FMA7243",
+      "system": "cardiac"
+    },
+    {
+      "index": 15,
+      "id": "FJ2433",
+      "name": "Posterior leaflet of tricuspid valve",
+      "conceptId": "FMA7239",
+      "system": "cardiac"
+    },
+    {
+      "index": 16,
+      "id": "FJ2434",
+      "name": "Right anterior cusp of pulmonary valve",
+      "conceptId": "FMA7249",
+      "system": "cardiac"
+    },
+    {
+      "index": 17,
+      "id": "FJ2435",
+      "name": "Anterior cusp of aortic valve",
+      "conceptId": "FMA7253",
+      "system": "cardiac"
+    },
+    {
+      "index": 18,
+      "id": "FJ2436",
+      "name": "Septal leaflet of tricuspid valve",
+      "conceptId": "FMA7240",
+      "system": "cardiac"
+    },
+    {
+      "index": 19,
+      "id": "FJ2437",
+      "name": "Septal papillary muscle of right ventricle",
+      "conceptId": "FMA7262",
+      "system": "muscular"
+    },
+    {
+      "index": 20,
+      "id": "FJ2438",
+      "name": "Wall of left atrium",
+      "conceptId": "FMA9531",
+      "system": "cardiac"
+    },
+    {
+      "index": 21,
+      "id": "FJ2439",
+      "name": "Wall of right atrium",
+      "conceptId": "FMA9457",
+      "system": "cardiac"
+    },
+    {
+      "index": 22,
+      "id": "FJ2631",
+      "name": "Trunk of anterior interventricular branch of left coronary artery",
+      "conceptId": "FMA74912",
+      "system": "arterial"
+    },
+    {
+      "index": 23,
+      "id": "FJ2632",
+      "name": "First right anterior branch of anterior interventricular branch of left coronary artery",
+      "conceptId": "FMA3872",
+      "system": "arterial"
+    },
+    {
+      "index": 24,
+      "id": "FJ2633",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "conceptId": "FMA3860",
+      "system": "arterial"
+    },
+    {
+      "index": 25,
+      "id": "FJ2634",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "conceptId": "FMA3860",
+      "system": "arterial"
+    },
+    {
+      "index": 26,
+      "id": "FJ2635",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "conceptId": "FMA3860",
+      "system": "arterial"
+    },
+    {
+      "index": 27,
+      "id": "FJ2636",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "conceptId": "FMA3860",
+      "system": "arterial"
+    },
+    {
+      "index": 28,
+      "id": "FJ2637",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "conceptId": "FMA3860",
+      "system": "arterial"
+    },
+    {
+      "index": 29,
+      "id": "FJ2638",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "conceptId": "FMA3860",
+      "system": "arterial"
+    },
+    {
+      "index": 30,
+      "id": "FJ2639",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "conceptId": "FMA3860",
+      "system": "arterial"
+    },
+    {
+      "index": 31,
+      "id": "FJ2640",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "conceptId": "FMA3860",
+      "system": "arterial"
+    },
+    {
+      "index": 32,
+      "id": "FJ2641",
+      "name": "Third right anterior branch of anterior interventricular branch of left coronary artery",
+      "conceptId": "FMA3876",
+      "system": "arterial"
+    },
+    {
+      "index": 33,
+      "id": "FJ2642",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "conceptId": "FMA3860",
+      "system": "arterial"
+    },
+    {
+      "index": 34,
+      "id": "FJ2643",
+      "name": "Conus branch of anterior interventricular branch of left coronary artery",
+      "conceptId": "FMA3868",
+      "system": "arterial"
+    },
+    {
+      "index": 35,
+      "id": "FJ2644",
+      "name": "Conus branch of anterior interventricular branch of left coronary artery",
+      "conceptId": "FMA3868",
+      "system": "arterial"
+    },
+    {
+      "index": 36,
+      "id": "FJ2645",
+      "name": "First right anterior branch of anterior interventricular branch of left coronary artery",
+      "conceptId": "FMA3872",
+      "system": "arterial"
+    },
+    {
+      "index": 37,
+      "id": "FJ2646",
+      "name": "Second right anterior branch of anterior interventricular branch of left coronary artery",
+      "conceptId": "FMA3874",
+      "system": "arterial"
+    },
+    {
+      "index": 38,
+      "id": "FJ2647",
+      "name": "Third right anterior branch of anterior interventricular branch of left coronary artery",
+      "conceptId": "FMA3876",
+      "system": "arterial"
+    },
+    {
+      "index": 39,
+      "id": "FJ2648",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "conceptId": "FMA3860",
+      "system": "arterial"
+    },
+    {
+      "index": 40,
+      "id": "FJ2649",
+      "name": "Circumflex branch of left coronary artery",
+      "conceptId": "FMA3895",
+      "system": "arterial"
+    },
+    {
+      "index": 41,
+      "id": "FJ2650",
+      "name": "Circumflex branch of left coronary artery",
+      "conceptId": "FMA3895",
+      "system": "arterial"
+    },
+    {
+      "index": 42,
+      "id": "FJ2651",
+      "name": "Circumflex branch of left coronary artery",
+      "conceptId": "FMA3895",
+      "system": "arterial"
+    },
+    {
+      "index": 43,
+      "id": "FJ2652",
+      "name": "Circumflex branch of left coronary artery",
+      "conceptId": "FMA3895",
+      "system": "arterial"
+    },
+    {
+      "index": 44,
+      "id": "FJ2653",
+      "name": "Circumflex branch of left coronary artery",
+      "conceptId": "FMA3895",
+      "system": "arterial"
+    },
+    {
+      "index": 45,
+      "id": "FJ2654",
+      "name": "Circumflex branch of left coronary artery",
+      "conceptId": "FMA3895",
+      "system": "arterial"
+    },
+    {
+      "index": 46,
+      "id": "FJ2655",
+      "name": "Coronary sinus",
+      "conceptId": "FMA4706",
+      "system": "venous"
+    },
+    {
+      "index": 47,
+      "id": "FJ2656",
+      "name": "Great cardiac vein",
+      "conceptId": "FMA4707",
+      "system": "venous"
+    },
+    {
+      "index": 48,
+      "id": "FJ2667",
+      "name": "Marginal branch of right coronary artery",
+      "conceptId": "FMA3818",
+      "system": "arterial"
+    },
+    {
+      "index": 49,
+      "id": "FJ2668",
+      "name": "Marginal branch of right coronary artery",
+      "conceptId": "FMA3818",
+      "system": "arterial"
+    },
+    {
+      "index": 50,
+      "id": "FJ2670",
+      "name": "Right conus artery",
+      "conceptId": "FMA3807",
+      "system": "arterial"
+    },
+    {
+      "index": 51,
+      "id": "FJ2671",
+      "name": "First anterior ventricular branch of right coronary artery",
+      "conceptId": "FMA3815",
+      "system": "arterial"
+    },
+    {
+      "index": 52,
+      "id": "FJ2672",
+      "name": "Marginal branch of right coronary artery",
+      "conceptId": "FMA3818",
+      "system": "arterial"
+    },
+    {
+      "index": 53,
+      "id": "FJ2673",
+      "name": "First anterior ventricular branch of right coronary artery",
+      "conceptId": "FMA3815",
+      "system": "arterial"
+    },
+    {
+      "index": 54,
+      "id": "FJ2674",
+      "name": "Marginal branch of right coronary artery",
+      "conceptId": "FMA3818",
+      "system": "arterial"
+    },
+    {
+      "index": 55,
+      "id": "FJ2675",
+      "name": "Marginal branch of right coronary artery",
+      "conceptId": "FMA3818",
+      "system": "arterial"
+    },
+    {
+      "index": 56,
+      "id": "FJ2676",
+      "name": "Right conus artery",
+      "conceptId": "FMA3807",
+      "system": "arterial"
+    },
+    {
+      "index": 57,
+      "id": "FJ2677",
+      "name": "First anterior ventricular branch of right coronary artery",
+      "conceptId": "FMA3815",
+      "system": "arterial"
+    },
+    {
+      "index": 58,
+      "id": "FJ2692",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "conceptId": "FMA3840",
+      "system": "arterial"
+    },
+    {
+      "index": 59,
+      "id": "FJ2693",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "conceptId": "FMA3840",
+      "system": "arterial"
+    },
+    {
+      "index": 60,
+      "id": "FJ2694",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "conceptId": "FMA3840",
+      "system": "arterial"
+    },
+    {
+      "index": 61,
+      "id": "FJ2695",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "conceptId": "FMA3840",
+      "system": "arterial"
+    },
+    {
+      "index": 62,
+      "id": "FJ2696",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "conceptId": "FMA3840",
+      "system": "arterial"
+    },
+    {
+      "index": 63,
+      "id": "FJ2697",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "conceptId": "FMA3840",
+      "system": "arterial"
+    },
+    {
+      "index": 64,
+      "id": "FJ2698",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "conceptId": "FMA3840",
+      "system": "arterial"
+    },
+    {
+      "index": 65,
+      "id": "FJ2699",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "conceptId": "FMA3840",
+      "system": "arterial"
+    },
+    {
+      "index": 66,
+      "id": "FJ2700",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "conceptId": "FMA3840",
+      "system": "arterial"
+    },
+    {
+      "index": 67,
+      "id": "FJ2714",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "conceptId": "FMA3837",
+      "system": "arterial"
+    },
+    {
+      "index": 68,
+      "id": "FJ2715",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "conceptId": "FMA3837",
+      "system": "arterial"
+    },
+    {
+      "index": 69,
+      "id": "FJ2716",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "conceptId": "FMA3837",
+      "system": "arterial"
+    },
+    {
+      "index": 70,
+      "id": "FJ2717",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "conceptId": "FMA3837",
+      "system": "arterial"
+    },
+    {
+      "index": 71,
+      "id": "FJ2718",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "conceptId": "FMA3837",
+      "system": "arterial"
+    },
+    {
+      "index": 72,
+      "id": "FJ2719",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "conceptId": "FMA3837",
+      "system": "arterial"
+    },
+    {
+      "index": 73,
+      "id": "FJ2720",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "conceptId": "FMA3837",
+      "system": "arterial"
+    },
+    {
+      "index": 74,
+      "id": "FJ2721",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "conceptId": "FMA3837",
+      "system": "arterial"
+    },
+    {
+      "index": 75,
+      "id": "FJ2722",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "conceptId": "FMA3837",
+      "system": "arterial"
+    },
+    {
+      "index": 76,
+      "id": "FJ2723",
+      "name": "Trunk of right coronary artery",
+      "conceptId": "FMA3802",
+      "system": "arterial"
+    },
+    {
+      "index": 77,
+      "id": "FJ2724",
+      "name": "Small cardiac vein",
+      "conceptId": "FMA4714",
+      "system": "venous"
+    },
+    {
+      "index": 78,
+      "id": "FJ2727",
+      "name": "Right marginal vein",
+      "conceptId": "FMA4716",
+      "system": "venous"
+    },
+    {
+      "index": 79,
+      "id": "FJ2728",
+      "name": "Right marginal vein",
+      "conceptId": "FMA4716",
+      "system": "venous"
+    },
+    {
+      "index": 80,
+      "id": "FJ2729",
+      "name": "Right marginal vein",
+      "conceptId": "FMA4716",
+      "system": "venous"
+    },
+    {
+      "index": 81,
+      "id": "FJ2731",
+      "name": "Small cardiac vein",
+      "conceptId": "FMA4714",
+      "system": "venous"
+    },
+    {
+      "index": 82,
+      "id": "FJ2737",
+      "name": "Trunk of left coronary artery",
+      "conceptId": "FMA3855",
+      "system": "arterial"
+    }
+  ]
+}

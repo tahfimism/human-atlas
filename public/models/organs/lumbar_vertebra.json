@@ -1,0 +1,78 @@
+{
+  "id": "FMA9921",
+  "name": "Lumbar Vertebra",
+  "slug": "lumbar_vertebra",
+  "elementsCount": 5,
+  "triangles": 12620,
+  "vertexCount": 7276,
+  "system": "skeletal",
+  "bounds": [
+    [
+      -0.0502871498465538,
+      -0.08369249105453491,
+      -0.048553998582065105
+    ],
+    [
+      0.0502871498465538,
+      0.08369249105453491,
+      0.048553998582065105
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.051000699400901794,
+      0.9827061891555786,
+      -0.08175499737262726
+    ],
+    [
+      0.04957360029220581,
+      1.1500911712646484,
+      0.015352999791502953
+    ]
+  ],
+  "center": [
+    -0.0007135495543479919,
+    1.0663986802101135,
+    -0.03320099879056215
+  ],
+  "byteSize": 266244,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ3157",
+      "name": "First lumbar vertebra",
+      "conceptId": "FMA13072",
+      "system": "skeletal"
+    },
+    {
+      "index": 1,
+      "id": "FJ3159",
+      "name": "Second lumbar vertebra",
+      "conceptId": "FMA13073",
+      "system": "skeletal"
+    },
+    {
+      "index": 2,
+      "id": "FJ3162",
+      "name": "Third lumbar vertebra",
+      "conceptId": "FMA13074",
+      "system": "skeletal"
+    },
+    {
+      "index": 3,
+      "id": "FJ3165",
+      "name": "Fourth lumbar vertebra",
+      "conceptId": "FMA13075",
+      "system": "skeletal"
+    },
+    {
+      "index": 4,
+      "id": "FJ3168",
+      "name": "Fifth lumbar vertebra",
+      "conceptId": "FMA13076",
+      "system": "skeletal"
+    }
+  ]
+}

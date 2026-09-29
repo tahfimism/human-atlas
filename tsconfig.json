@@ -25,16 +25,17 @@
     "paths": {
       "@/*": [
         "./*"
+      ],
+      "@base-ui/react/*": [
+        "./node_modules/@base-ui/react/*/index.d.ts",
+        "./node_modules/@base-ui/react/*"
       ]
     }
   },
   "include": [
     "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts",
-    "**/*.mts"
+    "app/**/*.ts",
+    "app/**/*.tsx"
   ],
   "exclude": [
     "node_modules"

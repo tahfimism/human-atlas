@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anatomy WebP Thumbnail Generator</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #0b0f19;
+      color: #f1f5f9;
+      padding: 30px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h1 { font-size: 24px; margin-bottom: 8px; }
+    p { color: #94a3b8; font-size: 14px; margin-bottom: 24px; }
+    .status-card {
+      background: #141a29;
+      border: 1px solid #232d42;
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .btn {
+      background: #2563eb;
+      color: #ffffff;
+      border: 0;
+      padding: 9px 18px;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .btn:hover { background: #1d4ed8; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    .item-card {
+      background: #131825;
+      border: 1px solid #222c3f;
+      border-radius: 10px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .item-preview {
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at center, #1b2434 0%, #0c1017 100%);
+      position: relative;
+    }
+    .item-preview img {
+      max-height: 90%;
+      max-width: 90%;
+      object-fit: contain;
+    }
+    .item-body {
+      padding: 10px 12px;
+      font-size: 12px;
+      border-top: 1px solid #1e2638;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .badge {
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: #10b98120;
+      color: #34d399;
+      font-weight: 600;
+    }
+    .badge.pending {
+      background: #f59e0b20;
+      color: #fbbf24;
+    }
+    #frame-container {
+      position: fixed;
+      top: -2000px;
+      left: -2000px;
+      width: 284px;
+      height: 184px;
+      opacity: 0;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Anatomy 3D → WebP Thumbnail Generator</h1>
+  <p>Captures crisp, hardware-rendered transparent WebP snapshots of every organ for 0ms chat loading.</p>
+
+  <div class="status-card">
+    <div>
+      <strong id="status-title">Ready to generate</strong>
+      <div id="status-sub" style="font-size: 12px; color: #64748b; margin-top: 2px;">6 target educational organs</div>
+    </div>
+    <button class="btn" id="start-btn" onclick="startBatch()">Generate All Thumbnails</button>
+  </div>
+
+  <div class="grid" id="items-grid"></div>
+
+  <div id="frame-container">
+    <iframe id="capture-frame" width="284" height="184"></iframe>
+  </div>
+
+  <script>
+    const ORGANS = [
+      { id: 'heart', name: 'Human Heart' },
+      { id: 'trachea', name: 'Trachea & Airways' },
+      { id: 'brain', name: 'Brain' },
+      { id: 'stomach', name: 'Stomach' },
+      { id: 'femur', name: 'Femur Bone' },
+      { id: 'liver', name: 'Liver' }
+    ];
+
+    const grid = document.getElementById('items-grid');
+    const frame = document.getElementById('capture-frame');
+    const statusTitle = document.getElementById('status-title');
+    const statusSub = document.getElementById('status-sub');
+    const startBtn = document.getElementById('start-btn');
+
+    let currentIndex = 0;
+    let isRunning = false;
+
+    // Render initial grid cards
+    grid.innerHTML = ORGANS.map(org => `
+      <div class="item-card" id="card-${org.id}">
+        <div class="item-preview" id="preview-${org.id}">
+          <span style="color: #475569; font-size: 11px;">Waiting...</span>
+        </div>
+        <div class="item-body">
+          <span>${org.name}</span>
+          <span class="badge pending" id="badge-${org.id}">PENDING</span>
+        </div>
+      </div>
+    `).join('');
+
+    function startBatch() {
+      if (isRunning) return;
+      isRunning = true;
+      currentIndex = 0;
+      startBtn.disabled = true;
+      startBtn.textContent = 'Generating...';
+      captureNext();
+    }
+
+    function captureNext() {
+      if (currentIndex >= ORGANS.length) {
+        statusTitle.textContent = '✓ All WebP thumbnails generated successfully!';
+        statusSub.textContent = 'Saved to /thumbnails/*.webp for production 0ms chat loading.';
+        startBtn.disabled = false;
+        startBtn.textContent = 'Re-generate All';
+        isRunning = false;
+        return;
+      }
+
+      const organ = ORGANS[currentIndex];
+      statusTitle.textContent = `Capturing 3D model: ${organ.name} (${currentIndex + 1} of ${ORGANS.length})`;
+      statusSub.textContent = `Rendering Three.js canvas buffer with transparent background...`;
+
+      const badge = document.getElementById(`badge-${organ.id}`);
+      badge.textContent = 'RENDERING...';
+      badge.className = 'badge pending';
+
+      // Load Atlas in headless mini snapshot mode on port 3016
+      frame.src = `http://localhost:3016/?organ=${organ.id}&isolate=true&embed=true&mini=true&snapshot=true&transparent=true`;
+    }
+
+    window.addEventListener('message', async (e) => {
+      if (!e.data || typeof e.data !== 'object') return;
+      const { type, organ, dataUrl } = e.data;
+
+      if (type === 'EVT_SNAPSHOT_READY' && isRunning) {
+        const currentTarget = ORGANS[currentIndex];
+        
+        try {
+          // Send snapshot to our local API endpoint to save to disk
+          const res = await fetch('/api/save-thumbnail', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ organ: currentTarget.id, dataUrl })
+          });
+          const result = await res.json();
+
+          const previewEl = document.getElementById(`preview-${currentTarget.id}`);
+          previewEl.innerHTML = `<img src="${dataUrl}" alt="${currentTarget.name}">`;
+
+          const badge = document.getElementById(`badge-${currentTarget.id}`);
+          badge.textContent = `${Math.round(result.size / 1024)} KB`;
+          badge.className = 'badge';
+
+          currentIndex++;
+          setTimeout(captureNext, 400);
+        } catch (err) {
+          console.error('Failed to save thumbnail:', err);
+          currentIndex++;
+          setTimeout(captureNext, 400);
+        }
+      }
+    });
+
+    // Auto-start if URL has ?autostart=true
+    if (new URLSearchParams(window.location.search).get('autostart') === 'true') {
+      setTimeout(startBatch, 500);
+    }
+  </script>
+</body>
+</html>

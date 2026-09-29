@@ -1,0 +1,15 @@
+# Production Edge Caching & CORS Headers for Cloudflare Pages
+
+/models/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
+
+/thumbnails/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
+
+/*
+  Access-Control-Allow-Origin: *
+  Content-Security-Policy: frame-ancestors *

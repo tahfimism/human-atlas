@@ -1,0 +1,57 @@
+{
+  "id": "FMA16585",
+  "name": "Pelvis",
+  "slug": "pelvis",
+  "elementsCount": 2,
+  "triangles": 3706,
+  "vertexCount": 2022,
+  "system": "skeletal",
+  "bounds": [
+    [
+      -0.14481299370527267,
+      -0.10295900702476501,
+      -0.06895011104643345
+    ],
+    [
+      0.14481299370527267,
+      0.10295900702476501,
+      0.06895011104643345
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.14487199485301971,
+      0.830062210559845,
+      -0.09888122230768204
+    ],
+    [
+      0.14475399255752563,
+      1.035980224609375,
+      0.03901899978518486
+    ]
+  ],
+  "center": [
+    -0.000059001147747039795,
+    0.93302121758461,
+    -0.02993111126124859
+  ],
+  "byteSize": 76132,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ3152",
+      "name": "Right hip bone",
+      "conceptId": "FMA16586",
+      "system": "skeletal"
+    },
+    {
+      "index": 1,
+      "id": "FJ3288",
+      "name": "Left hip bone",
+      "conceptId": "FMA16587",
+      "system": "skeletal"
+    }
+  ]
+}

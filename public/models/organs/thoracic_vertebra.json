@@ -1,0 +1,127 @@
+{
+  "id": "FMA9139",
+  "name": "Thoracic Vertebra",
+  "slug": "thoracic_vertebra",
+  "elementsCount": 12,
+  "triangles": 15000,
+  "vertexCount": 9359,
+  "system": "skeletal",
+  "bounds": [
+    [
+      -0.036851800978183746,
+      -0.16347002983093262,
+      -0.050701776694040745
+    ],
+    [
+      0.036851800978183746,
+      0.16347002983093262,
+      0.050701776694040745
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.037383001297712326,
+      1.1280711889266968,
+      -0.10001855343580246
+    ],
+    [
+      0.03632060065865517,
+      1.455011248588562,
+      0.0013849999522790313
+    ]
+  ],
+  "center": [
+    -0.0005312003195285797,
+    1.2915412187576294,
+    -0.049316776741761714
+  ],
+  "byteSize": 334692,
+  "decimated": true,
+  "decimationError": 0.000896,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ3154",
+      "name": "Tenth thoracic vertebra",
+      "conceptId": "FMA10037",
+      "system": "skeletal"
+    },
+    {
+      "index": 1,
+      "id": "FJ3155",
+      "name": "Eleventh thoracic vertebra",
+      "conceptId": "FMA10059",
+      "system": "skeletal"
+    },
+    {
+      "index": 2,
+      "id": "FJ3156",
+      "name": "Twelfth thoracic vertebra",
+      "conceptId": "FMA10081",
+      "system": "skeletal"
+    },
+    {
+      "index": 3,
+      "id": "FJ3158",
+      "name": "First thoracic vertebra",
+      "conceptId": "FMA9165",
+      "system": "skeletal"
+    },
+    {
+      "index": 4,
+      "id": "FJ3160",
+      "name": "Second thoracic vertebra",
+      "conceptId": "FMA9187",
+      "system": "skeletal"
+    },
+    {
+      "index": 5,
+      "id": "FJ3163",
+      "name": "Third thoracic vertebra",
+      "conceptId": "FMA9209",
+      "system": "skeletal"
+    },
+    {
+      "index": 6,
+      "id": "FJ3166",
+      "name": "Fourth thoracic vertebra",
+      "conceptId": "FMA9248",
+      "system": "skeletal"
+    },
+    {
+      "index": 7,
+      "id": "FJ3169",
+      "name": "Fifth thoracic vertebra",
+      "conceptId": "FMA9922",
+      "system": "skeletal"
+    },
+    {
+      "index": 8,
+      "id": "FJ3171",
+      "name": "Sixth thoracic vertebra",
+      "conceptId": "FMA9945",
+      "system": "skeletal"
+    },
+    {
+      "index": 9,
+      "id": "FJ3173",
+      "name": "Seventh thoracic vertebra",
+      "conceptId": "FMA9968",
+      "system": "skeletal"
+    },
+    {
+      "index": 10,
+      "id": "FJ3174",
+      "name": "Eighth thoracic vertebra",
+      "conceptId": "FMA9991",
+      "system": "skeletal"
+    },
+    {
+      "index": 11,
+      "id": "FJ3175",
+      "name": "Ninth thoracic vertebra",
+      "conceptId": "FMA10014",
+      "system": "skeletal"
+    }
+  ]
+}

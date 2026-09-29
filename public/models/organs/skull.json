@@ -1,0 +1,344 @@
+{
+  "id": "FMA46565",
+  "name": "Skull",
+  "slug": "skull",
+  "elementsCount": 43,
+  "triangles": 5779,
+  "vertexCount": 1658,
+  "system": "sensory",
+  "bounds": [
+    [
+      -0.07551850005984306,
+      -0.10729002952575684,
+      -0.10441699996590614
+    ],
+    [
+      0.07551850005984306,
+      0.10729002952575684,
+      0.10441699996590614
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.07618050277233124,
+      1.4997411966323853,
+      -0.11800099909305573
+    ],
+    [
+      0.07485649734735489,
+      1.714321255683899,
+      0.09083300083875656
+    ]
+  ],
+  "center": [
+    -0.0006620027124881744,
+    1.607031226158142,
+    -0.013583999127149582
+  ],
+  "byteSize": 79104,
+  "decimated": true,
+  "decimationError": 0.035183,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ1282",
+      "name": "Anterior chamber of left eyeball",
+      "conceptId": "FMA58082",
+      "system": "sensory"
+    },
+    {
+      "index": 1,
+      "id": "FJ1285",
+      "name": "Left choroid",
+      "conceptId": "FMA58300",
+      "system": "sensory"
+    },
+    {
+      "index": 2,
+      "id": "FJ1286",
+      "name": "Left choroid",
+      "conceptId": "FMA58300",
+      "system": "sensory"
+    },
+    {
+      "index": 3,
+      "id": "FJ1289",
+      "name": "Left cornea",
+      "conceptId": "FMA58240",
+      "system": "sensory"
+    },
+    {
+      "index": 4,
+      "id": "FJ1297",
+      "name": "Left iris",
+      "conceptId": "FMA58237",
+      "system": "sensory"
+    },
+    {
+      "index": 5,
+      "id": "FJ1299",
+      "name": "Left lacrimal gland",
+      "conceptId": "FMA59103",
+      "system": "sensory"
+    },
+    {
+      "index": 6,
+      "id": "FJ1305",
+      "name": "Left lens",
+      "conceptId": "FMA58243",
+      "system": "sensory"
+    },
+    {
+      "index": 7,
+      "id": "FJ1317",
+      "name": "Left sclera",
+      "conceptId": "FMA58272",
+      "system": "sensory"
+    },
+    {
+      "index": 8,
+      "id": "FJ1320",
+      "name": "Suspensory ligament of left lens",
+      "conceptId": "FMA58840",
+      "system": "sensory"
+    },
+    {
+      "index": 9,
+      "id": "FJ1331",
+      "name": "Left vitreous body",
+      "conceptId": "FMA58829",
+      "system": "sensory"
+    },
+    {
+      "index": 10,
+      "id": "FJ1336",
+      "name": "Right choroid",
+      "conceptId": "FMA58299",
+      "system": "sensory"
+    },
+    {
+      "index": 11,
+      "id": "FJ1337",
+      "name": "Right choroid",
+      "conceptId": "FMA58299",
+      "system": "sensory"
+    },
+    {
+      "index": 12,
+      "id": "FJ1340",
+      "name": "Right cornea",
+      "conceptId": "FMA58239",
+      "system": "sensory"
+    },
+    {
+      "index": 13,
+      "id": "FJ1348",
+      "name": "Right iris",
+      "conceptId": "FMA58236",
+      "system": "sensory"
+    },
+    {
+      "index": 14,
+      "id": "FJ1350",
+      "name": "Right lacrimal gland",
+      "conceptId": "FMA59102",
+      "system": "sensory"
+    },
+    {
+      "index": 15,
+      "id": "FJ1356",
+      "name": "Right lens",
+      "conceptId": "FMA58242",
+      "system": "sensory"
+    },
+    {
+      "index": 16,
+      "id": "FJ1368",
+      "name": "Right sclera",
+      "conceptId": "FMA58271",
+      "system": "sensory"
+    },
+    {
+      "index": 17,
+      "id": "FJ1371",
+      "name": "Suspensory ligament of right lens",
+      "conceptId": "FMA58839",
+      "system": "sensory"
+    },
+    {
+      "index": 18,
+      "id": "FJ1382",
+      "name": "Right vitreous body",
+      "conceptId": "FMA58828",
+      "system": "sensory"
+    },
+    {
+      "index": 19,
+      "id": "FJ2772",
+      "name": "Hyoid bone",
+      "conceptId": "FMA52749",
+      "system": "skeletal"
+    },
+    {
+      "index": 20,
+      "id": "FJ3199",
+      "name": "Ethmoid",
+      "conceptId": "FMA52740",
+      "system": "skeletal"
+    },
+    {
+      "index": 21,
+      "id": "FJ3200",
+      "name": "Frontal bone",
+      "conceptId": "FMA52734",
+      "system": "skeletal"
+    },
+    {
+      "index": 22,
+      "id": "FJ3201",
+      "name": "Hyoid bone",
+      "conceptId": "FMA52749",
+      "system": "skeletal"
+    },
+    {
+      "index": 23,
+      "id": "FJ3263",
+      "name": "Left inferior nasal concha",
+      "conceptId": "FMA54738",
+      "system": "respiratory"
+    },
+    {
+      "index": 24,
+      "id": "FJ3265",
+      "name": "Left lacrimal bone",
+      "conceptId": "FMA53646",
+      "system": "sensory"
+    },
+    {
+      "index": 25,
+      "id": "FJ3269",
+      "name": "Left maxilla",
+      "conceptId": "FMA53650",
+      "system": "skeletal"
+    },
+    {
+      "index": 26,
+      "id": "FJ3272",
+      "name": "Left nasal bone",
+      "conceptId": "FMA53648",
+      "system": "skeletal"
+    },
+    {
+      "index": 27,
+      "id": "FJ3273",
+      "name": "Left palatine bone",
+      "conceptId": "FMA53656",
+      "system": "skeletal"
+    },
+    {
+      "index": 28,
+      "id": "FJ3274",
+      "name": "Left parietal bone",
+      "conceptId": "FMA52789",
+      "system": "skeletal"
+    },
+    {
+      "index": 29,
+      "id": "FJ3281",
+      "name": "Left temporal bone",
+      "conceptId": "FMA52739",
+      "system": "skeletal"
+    },
+    {
+      "index": 30,
+      "id": "FJ3287",
+      "name": "Left zygomatic bone",
+      "conceptId": "FMA52893",
+      "system": "skeletal"
+    },
+    {
+      "index": 31,
+      "id": "FJ3289",
+      "name": "Mandible",
+      "conceptId": "FMA52748",
+      "system": "skeletal"
+    },
+    {
+      "index": 32,
+      "id": "FJ3309",
+      "name": "Occipital bone",
+      "conceptId": "FMA52735",
+      "system": "skeletal"
+    },
+    {
+      "index": 33,
+      "id": "FJ3369",
+      "name": "Right inferior nasal concha",
+      "conceptId": "FMA54737",
+      "system": "respiratory"
+    },
+    {
+      "index": 34,
+      "id": "FJ3371",
+      "name": "Right lacrimal bone",
+      "conceptId": "FMA53645",
+      "system": "sensory"
+    },
+    {
+      "index": 35,
+      "id": "FJ3375",
+      "name": "Right maxilla",
+      "conceptId": "FMA53649",
+      "system": "skeletal"
+    },
+    {
+      "index": 36,
+      "id": "FJ3378",
+      "name": "Right nasal bone",
+      "conceptId": "FMA53647",
+      "system": "skeletal"
+    },
+    {
+      "index": 37,
+      "id": "FJ3379",
+      "name": "Right palatine bone",
+      "conceptId": "FMA53655",
+      "system": "skeletal"
+    },
+    {
+      "index": 38,
+      "id": "FJ3380",
+      "name": "Right parietal bone",
+      "conceptId": "FMA52788",
+      "system": "skeletal"
+    },
+    {
+      "index": 39,
+      "id": "FJ3386",
+      "name": "Right temporal bone",
+      "conceptId": "FMA52738",
+      "system": "skeletal"
+    },
+    {
+      "index": 40,
+      "id": "FJ3392",
+      "name": "Right zygomatic bone",
+      "conceptId": "FMA52892",
+      "system": "skeletal"
+    },
+    {
+      "index": 41,
+      "id": "FJ3394",
+      "name": "Sphenoid bone",
+      "conceptId": "FMA52736",
+      "system": "skeletal"
+    },
+    {
+      "index": 42,
+      "id": "FJ3395",
+      "name": "Vomer",
+      "conceptId": "FMA9710",
+      "system": "skeletal"
+    }
+  ]
+}

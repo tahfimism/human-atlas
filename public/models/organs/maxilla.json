@@ -1,0 +1,57 @@
+{
+  "id": "FMA9711",
+  "name": "Maxilla",
+  "slug": "maxilla",
+  "elementsCount": 2,
+  "triangles": 7258,
+  "vertexCount": 5269,
+  "system": "skeletal",
+  "bounds": [
+    [
+      -0.046637749299407005,
+      -0.03468000888824463,
+      -0.028607497923076153
+    ],
+    [
+      0.046637749299407005,
+      0.03468000888824463,
+      0.028607497923076153
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.04755749925971031,
+      1.5421011447906494,
+      0.02681400068104267
+    ],
+    [
+      0.0457179993391037,
+      1.6114611625671387,
+      0.08402899652719498
+    ]
+  ],
+  "center": [
+    -0.0009197499603033066,
+    1.576781153678894,
+    0.055421498604118824
+  ],
+  "byteSize": 181880,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ3269",
+      "name": "Left maxilla",
+      "conceptId": "FMA53650",
+      "system": "skeletal"
+    },
+    {
+      "index": 1,
+      "id": "FJ3375",
+      "name": "Right maxilla",
+      "conceptId": "FMA53649",
+      "system": "skeletal"
+    }
+  ]
+}

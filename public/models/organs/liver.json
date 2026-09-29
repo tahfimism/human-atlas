@@ -1,0 +1,463 @@
+{
+  "id": "FMA7197",
+  "name": "liver",
+  "slug": "liver",
+  "elementsCount": 60,
+  "triangles": 15000,
+  "vertexCount": 14308,
+  "system": "digestive",
+  "bounds": [
+    [
+      -0.10470389947295189,
+      -0.07758498191833496,
+      -0.07950150035321712
+    ],
+    [
+      0.10470389947295189,
+      0.07758498191833496,
+      0.07950150035321712
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.11504100263118744,
+      1.1060712337493896,
+      -0.056655000895261765
+    ],
+    [
+      0.09436679631471634,
+      1.2612411975860596,
+      0.10234799981117249
+    ]
+  ],
+  "center": [
+    -0.01033710315823555,
+    1.1836562156677246,
+    0.02284649945795536
+  ],
+  "byteSize": 463344,
+  "decimated": true,
+  "decimationError": 0.003088,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ1883",
+      "name": "Caudate lobe tributary of left hepatic biliary tree",
+      "conceptId": "FMA71889",
+      "system": "digestive"
+    },
+    {
+      "index": 1,
+      "id": "FJ1893",
+      "name": "Left portal vein",
+      "conceptId": "FMA15415",
+      "system": "venous"
+    },
+    {
+      "index": 2,
+      "id": "FJ1913",
+      "name": "Right portal vein",
+      "conceptId": "FMA15414",
+      "system": "venous"
+    },
+    {
+      "index": 3,
+      "id": "FJ1914",
+      "name": "Caudate lobe branch of right portal vein",
+      "conceptId": "FMA82706",
+      "system": "venous"
+    },
+    {
+      "index": 4,
+      "id": "FJ1916",
+      "name": "Caudate lobe branch of right hepatic artery",
+      "conceptId": "FMA70447",
+      "system": "arterial"
+    },
+    {
+      "index": 5,
+      "id": "FJ2386",
+      "name": "Caudate lobe branch of right hepatic artery",
+      "conceptId": "FMA70447",
+      "system": "arterial"
+    },
+    {
+      "index": 6,
+      "id": "FJ2404",
+      "name": "Left portal vein",
+      "conceptId": "FMA15415",
+      "system": "venous"
+    },
+    {
+      "index": 7,
+      "id": "FJ2405",
+      "name": "Right portal vein",
+      "conceptId": "FMA15414",
+      "system": "venous"
+    },
+    {
+      "index": 8,
+      "id": "FJ2409",
+      "name": "Hepatovenous segment VII",
+      "conceptId": "FMA15745",
+      "system": "venous"
+    },
+    {
+      "index": 9,
+      "id": "FJ2415",
+      "name": "Left hepatic vein",
+      "conceptId": "FMA14339",
+      "system": "venous"
+    },
+    {
+      "index": 10,
+      "id": "FJ2416",
+      "name": "Right hepatic vein",
+      "conceptId": "FMA14338",
+      "system": "venous"
+    },
+    {
+      "index": 11,
+      "id": "FJ2816",
+      "name": "Caudate lobe of liver",
+      "conceptId": "FMA13365",
+      "system": "digestive"
+    },
+    {
+      "index": 12,
+      "id": "FJ2818",
+      "name": "Hepatovenous segment II",
+      "conceptId": "FMA15739",
+      "system": "venous"
+    },
+    {
+      "index": 13,
+      "id": "FJ2819",
+      "name": "Hepatovenous segment III",
+      "conceptId": "FMA15741",
+      "system": "venous"
+    },
+    {
+      "index": 14,
+      "id": "FJ2820",
+      "name": "Hepatovenous segment IV",
+      "conceptId": "FMA15742",
+      "system": "venous"
+    },
+    {
+      "index": 15,
+      "id": "FJ2821",
+      "name": "Hepatovenous segment V",
+      "conceptId": "FMA15743",
+      "system": "venous"
+    },
+    {
+      "index": 16,
+      "id": "FJ2822",
+      "name": "Hepatovenous segment VI",
+      "conceptId": "FMA15744",
+      "system": "venous"
+    },
+    {
+      "index": 17,
+      "id": "FJ2823",
+      "name": "Hepatovenous segment VIII",
+      "conceptId": "FMA15746",
+      "system": "venous"
+    },
+    {
+      "index": 18,
+      "id": "FJ2824",
+      "name": "Hepatovenous segment VIII",
+      "conceptId": "FMA15746",
+      "system": "venous"
+    },
+    {
+      "index": 19,
+      "id": "FJ3071",
+      "name": "Anterior superior tributary of right hepatic biliary tree",
+      "conceptId": "FMA71867",
+      "system": "digestive"
+    },
+    {
+      "index": 20,
+      "id": "FJ3072",
+      "name": "Anterior inferior tributary of right hepatic biliary tree",
+      "conceptId": "FMA71868",
+      "system": "digestive"
+    },
+    {
+      "index": 21,
+      "id": "FJ3073",
+      "name": "Anterior superior segmental branch of right portal vein",
+      "conceptId": "FMA15420",
+      "system": "venous"
+    },
+    {
+      "index": 22,
+      "id": "FJ3074",
+      "name": "Anterior inferior segmental branch of right portal vein",
+      "conceptId": "FMA15421",
+      "system": "venous"
+    },
+    {
+      "index": 23,
+      "id": "FJ3075",
+      "name": "Anterior inferior segmental hepatic artery",
+      "conceptId": "FMA70443",
+      "system": "arterial"
+    },
+    {
+      "index": 24,
+      "id": "FJ3076",
+      "name": "Anterior superior segmental hepatic artery",
+      "conceptId": "FMA70442",
+      "system": "arterial"
+    },
+    {
+      "index": 25,
+      "id": "FJ3077",
+      "name": "Caudate lobe branch of left hepatic artery",
+      "conceptId": "FMA70455",
+      "system": "arterial"
+    },
+    {
+      "index": 26,
+      "id": "FJ3081",
+      "name": "Hepatic artery proper",
+      "conceptId": "FMA14772",
+      "system": "arterial"
+    },
+    {
+      "index": 27,
+      "id": "FJ3083",
+      "name": "Anterior inferior segmental tributary of middle hepatic vein",
+      "conceptId": "FMA15800",
+      "system": "venous"
+    },
+    {
+      "index": 28,
+      "id": "FJ3086",
+      "name": "Anterior inferior segmental tributary of middle hepatic vein",
+      "conceptId": "FMA15800",
+      "system": "venous"
+    },
+    {
+      "index": 29,
+      "id": "FJ3088",
+      "name": "Lateral superior tributary of left hepatic biliary tree",
+      "conceptId": "FMA71887",
+      "system": "digestive"
+    },
+    {
+      "index": 30,
+      "id": "FJ3089",
+      "name": "Lateral inferior tributary of left hepatic biliary tree",
+      "conceptId": "FMA71888",
+      "system": "digestive"
+    },
+    {
+      "index": 31,
+      "id": "FJ3090",
+      "name": "Lateral superior tributary of left hepatic biliary tree",
+      "conceptId": "FMA71887",
+      "system": "digestive"
+    },
+    {
+      "index": 32,
+      "id": "FJ3091",
+      "name": "Lateral superior segmental hepatic artery",
+      "conceptId": "FMA70452",
+      "system": "arterial"
+    },
+    {
+      "index": 33,
+      "id": "FJ3092",
+      "name": "Lateral inferior segmental hepatic artery",
+      "conceptId": "FMA70453",
+      "system": "arterial"
+    },
+    {
+      "index": 34,
+      "id": "FJ3093",
+      "name": "Lateral superior segmental hepatic artery",
+      "conceptId": "FMA70452",
+      "system": "arterial"
+    },
+    {
+      "index": 35,
+      "id": "FJ3095",
+      "name": "Trunk of left hepatic artery",
+      "conceptId": "FMA70457",
+      "system": "arterial"
+    },
+    {
+      "index": 36,
+      "id": "FJ3096",
+      "name": "Left hepatic duct",
+      "conceptId": "FMA14670",
+      "system": "digestive"
+    },
+    {
+      "index": 37,
+      "id": "FJ3102",
+      "name": "Trunk of left portal vein",
+      "conceptId": "FMA82697",
+      "system": "venous"
+    },
+    {
+      "index": 38,
+      "id": "FJ3103",
+      "name": "Medial inferior tributary of left hepatic biliary tree",
+      "conceptId": "FMA71886",
+      "system": "digestive"
+    },
+    {
+      "index": 39,
+      "id": "FJ3104",
+      "name": "Medial superior tributary of left hepatic biliary tree",
+      "conceptId": "FMA71885",
+      "system": "digestive"
+    },
+    {
+      "index": 40,
+      "id": "FJ3105",
+      "name": "Medial superior tributary of left hepatic biliary tree",
+      "conceptId": "FMA71885",
+      "system": "digestive"
+    },
+    {
+      "index": 41,
+      "id": "FJ3106",
+      "name": "Medial inferior segmental hepatic artery",
+      "conceptId": "FMA70450",
+      "system": "arterial"
+    },
+    {
+      "index": 42,
+      "id": "FJ3107",
+      "name": "Medial superior segmental hepatic artery",
+      "conceptId": "FMA70449",
+      "system": "arterial"
+    },
+    {
+      "index": 43,
+      "id": "FJ3108",
+      "name": "Posterior inferior tributary of right hepatic biliary tree",
+      "conceptId": "FMA71870",
+      "system": "digestive"
+    },
+    {
+      "index": 44,
+      "id": "FJ3109",
+      "name": "Posterior superior tributary of right hepatic biliary tree",
+      "conceptId": "FMA71869",
+      "system": "digestive"
+    },
+    {
+      "index": 45,
+      "id": "FJ3110",
+      "name": "Posterior superior tributary of right hepatic biliary tree",
+      "conceptId": "FMA71869",
+      "system": "digestive"
+    },
+    {
+      "index": 46,
+      "id": "FJ3111",
+      "name": "Posterior inferior segmental branch of right portal vein",
+      "conceptId": "FMA15424",
+      "system": "venous"
+    },
+    {
+      "index": 47,
+      "id": "FJ3112",
+      "name": "Posterior superior segmental branch of right portal vein",
+      "conceptId": "FMA15423",
+      "system": "venous"
+    },
+    {
+      "index": 48,
+      "id": "FJ3113",
+      "name": "Posterior superior segmental branch of right portal vein",
+      "conceptId": "FMA15423",
+      "system": "venous"
+    },
+    {
+      "index": 49,
+      "id": "FJ3114",
+      "name": "Posterior inferior segmental hepatic artery",
+      "conceptId": "FMA70446",
+      "system": "arterial"
+    },
+    {
+      "index": 50,
+      "id": "FJ3115",
+      "name": "Posterior superior segmental hepatic artery",
+      "conceptId": "FMA70445",
+      "system": "arterial"
+    },
+    {
+      "index": 51,
+      "id": "FJ3116",
+      "name": "Posterior superior segmental hepatic artery",
+      "conceptId": "FMA70445",
+      "system": "arterial"
+    },
+    {
+      "index": 52,
+      "id": "FJ3117",
+      "name": "Trunk of right hepatic artery",
+      "conceptId": "FMA70456",
+      "system": "arterial"
+    },
+    {
+      "index": 53,
+      "id": "FJ3122",
+      "name": "Trunk of right portal vein",
+      "conceptId": "FMA82695",
+      "system": "venous"
+    },
+    {
+      "index": 54,
+      "id": "FJ3123",
+      "name": "Right hepatic duct",
+      "conceptId": "FMA14669",
+      "system": "digestive"
+    },
+    {
+      "index": 55,
+      "id": "FJ3124",
+      "name": "Caudate lobe branch of left portal vein",
+      "conceptId": "FMA15425",
+      "system": "venous"
+    },
+    {
+      "index": 56,
+      "id": "FJ3125",
+      "name": "Lateral inferior segmental branch of left portal vein",
+      "conceptId": "FMA15432",
+      "system": "venous"
+    },
+    {
+      "index": 57,
+      "id": "FJ3126",
+      "name": "Lateral superior segmental branch of left portal vein",
+      "conceptId": "FMA15431",
+      "system": "venous"
+    },
+    {
+      "index": 58,
+      "id": "FJ3127",
+      "name": "Medial superior segmental branch of left portal vein",
+      "conceptId": "FMA15428",
+      "system": "venous"
+    },
+    {
+      "index": 59,
+      "id": "FJ3128",
+      "name": "Medial inferior segmental branch of left portal vein",
+      "conceptId": "FMA15429",
+      "system": "venous"
+    }
+  ]
+}

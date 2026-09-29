@@ -1,0 +1,71 @@
+{
+  "id": "FMA45950",
+  "name": "Gastrocnemius",
+  "slug": "gastrocnemius",
+  "elementsCount": 4,
+  "triangles": 3260,
+  "vertexCount": 2260,
+  "system": "muscular",
+  "bounds": [
+    [
+      -0.11699199676513672,
+      -0.1545655056834221,
+      -0.04344214405864477
+    ],
+    [
+      0.11699199676513672,
+      0.1545655056834221,
+      0.04344214405864477
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.11699199676513672,
+      0.2009442001581192,
+      -0.09419088810682297
+    ],
+    [
+      0.11699199676513672,
+      0.5100752115249634,
+      -0.007306599989533424
+    ]
+  ],
+  "center": [
+    0,
+    0.3555097058415413,
+    -0.050748744048178196
+  ],
+  "byteSize": 79660,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ1394",
+      "name": "Lateral head of right gastrocnemius",
+      "conceptId": "FMA45960",
+      "system": "muscular"
+    },
+    {
+      "index": 1,
+      "id": "FJ1394M",
+      "name": "Lateral head of left gastrocnemius",
+      "conceptId": "FMA45961",
+      "system": "muscular"
+    },
+    {
+      "index": 2,
+      "id": "FJ1397",
+      "name": "Medial head of right gastrocnemius",
+      "conceptId": "FMA45957",
+      "system": "muscular"
+    },
+    {
+      "index": 3,
+      "id": "FJ1397M",
+      "name": "Medial head of left gastrocnemius",
+      "conceptId": "FMA45958",
+      "system": "muscular"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "FMA37683",
+  "name": "Biceps Brachii",
+  "slug": "biceps_brachii",
+  "elementsCount": 2,
+  "triangles": 984,
+  "vertexCount": 923,
+  "system": "muscular",
+  "bounds": [
+    [
+      -0.22978700697422028,
+      -0.1726740002632141,
+      -0.0207420508377254
+    ],
+    [
+      0.22978700697422028,
+      0.1726740002632141,
+      0.0207420508377254
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.22978700697422028,
+      1.0721832513809204,
+      -0.03219110146164894
+    ],
+    [
+      0.22978700697422028,
+      1.4175312519073486,
+      0.00929300021380186
+    ]
+  ],
+  "center": [
+    0,
+    1.2448572516441345,
+    -0.01144905062392354
+  ],
+  "byteSize": 31240,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ1478",
+      "name": "Long head of right biceps brachii",
+      "conceptId": "FMA37686",
+      "system": "muscular"
+    },
+    {
+      "index": 1,
+      "id": "FJ1478M",
+      "name": "Long head of left biceps brachii",
+      "conceptId": "FMA37687",
+      "system": "muscular"
+    }
+  ]
+}

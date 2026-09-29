@@ -1,0 +1,57 @@
+{
+  "id": "FMA13394",
+  "name": "Scapula",
+  "slug": "scapula",
+  "elementsCount": 2,
+  "triangles": 11936,
+  "vertexCount": 5993,
+  "system": "skeletal",
+  "bounds": [
+    [
+      -0.16645950078964233,
+      -0.082955002784729,
+      -0.05395743576809764
+    ],
+    [
+      0.16645950078964233,
+      0.082955002784729,
+      0.05395743576809764
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.1664550006389618,
+      1.2620612382888794,
+      -0.10506787151098251
+    ],
+    [
+      0.16646400094032288,
+      1.4279712438583374,
+      0.0028470000252127647
+    ]
+  ],
+  "center": [
+    0.000004500150680541992,
+    1.3450162410736084,
+    -0.051110435742884874
+  ],
+  "byteSize": 228764,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ3279",
+      "name": "Left scapula",
+      "conceptId": "FMA13396",
+      "system": "skeletal"
+    },
+    {
+      "index": 1,
+      "id": "FJ3384",
+      "name": "Right scapula",
+      "conceptId": "FMA13395",
+      "system": "skeletal"
+    }
+  ]
+}

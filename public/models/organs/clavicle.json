@@ -1,0 +1,57 @@
+{
+  "id": "FMA13321",
+  "name": "Clavicle",
+  "slug": "clavicle",
+  "elementsCount": 2,
+  "triangles": 1646,
+  "vertexCount": 846,
+  "system": "skeletal",
+  "bounds": [
+    [
+      -0.1446094959974289,
+      -0.023455023765563965,
+      -0.04634524881839752
+    ],
+    [
+      0.1446094959974289,
+      0.023455023765563965,
+      0.04634524881839752
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.1452769935131073,
+      1.3866411447525024,
+      -0.04561249911785126
+    ],
+    [
+      0.1439419984817505,
+      1.4335511922836304,
+      0.04707799851894379
+    ]
+  ],
+  "center": [
+    -0.0006674975156784058,
+    1.4100961685180664,
+    0.0007327497005462646
+  ],
+  "byteSize": 33196,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ3237",
+      "name": "Left clavicle",
+      "conceptId": "FMA13323",
+      "system": "skeletal"
+    },
+    {
+      "index": 1,
+      "id": "FJ3362",
+      "name": "Right clavicle",
+      "conceptId": "FMA13322",
+      "system": "skeletal"
+    }
+  ]
+}

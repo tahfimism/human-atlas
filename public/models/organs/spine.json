@@ -1,0 +1,379 @@
+{
+  "id": "FMA13478",
+  "name": "Spine",
+  "slug": "spine",
+  "elementsCount": 48,
+  "triangles": 5781,
+  "vertexCount": 1747,
+  "system": "skeletal",
+  "bounds": [
+    [
+      -0.058824198320508,
+      -0.34928351640701294,
+      -0.061622376553714275
+    ],
+    [
+      0.058824198320508,
+      0.34928351640701294,
+      0.061622376553714275
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.05948539823293686,
+      0.8609741926193237,
+      -0.10725375264883041
+    ],
+    [
+      0.05816299840807915,
+      1.5595412254333496,
+      0.015991000458598137
+    ]
+  ],
+  "center": [
+    -0.0006611999124288559,
+    1.2102577090263367,
+    -0.04563137609511614
+  ],
+  "byteSize": 81432,
+  "decimated": true,
+  "decimationError": 0.011831,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ3154",
+      "name": "Tenth thoracic vertebra",
+      "conceptId": "FMA10037",
+      "system": "skeletal"
+    },
+    {
+      "index": 1,
+      "id": "FJ3155",
+      "name": "Eleventh thoracic vertebra",
+      "conceptId": "FMA10059",
+      "system": "skeletal"
+    },
+    {
+      "index": 2,
+      "id": "FJ3156",
+      "name": "Twelfth thoracic vertebra",
+      "conceptId": "FMA10081",
+      "system": "skeletal"
+    },
+    {
+      "index": 3,
+      "id": "FJ3157",
+      "name": "First lumbar vertebra",
+      "conceptId": "FMA13072",
+      "system": "skeletal"
+    },
+    {
+      "index": 4,
+      "id": "FJ3158",
+      "name": "First thoracic vertebra",
+      "conceptId": "FMA9165",
+      "system": "skeletal"
+    },
+    {
+      "index": 5,
+      "id": "FJ3159",
+      "name": "Second lumbar vertebra",
+      "conceptId": "FMA13073",
+      "system": "skeletal"
+    },
+    {
+      "index": 6,
+      "id": "FJ3160",
+      "name": "Second thoracic vertebra",
+      "conceptId": "FMA9187",
+      "system": "skeletal"
+    },
+    {
+      "index": 7,
+      "id": "FJ3161",
+      "name": "Third cervical vertebra",
+      "conceptId": "FMA12521",
+      "system": "skeletal"
+    },
+    {
+      "index": 8,
+      "id": "FJ3162",
+      "name": "Third lumbar vertebra",
+      "conceptId": "FMA13074",
+      "system": "skeletal"
+    },
+    {
+      "index": 9,
+      "id": "FJ3163",
+      "name": "Third thoracic vertebra",
+      "conceptId": "FMA9209",
+      "system": "skeletal"
+    },
+    {
+      "index": 10,
+      "id": "FJ3164",
+      "name": "Fourth cervical vertebra",
+      "conceptId": "FMA12522",
+      "system": "skeletal"
+    },
+    {
+      "index": 11,
+      "id": "FJ3165",
+      "name": "Fourth lumbar vertebra",
+      "conceptId": "FMA13075",
+      "system": "skeletal"
+    },
+    {
+      "index": 12,
+      "id": "FJ3166",
+      "name": "Fourth thoracic vertebra",
+      "conceptId": "FMA9248",
+      "system": "skeletal"
+    },
+    {
+      "index": 13,
+      "id": "FJ3167",
+      "name": "Fifth cervical vertebra",
+      "conceptId": "FMA12523",
+      "system": "skeletal"
+    },
+    {
+      "index": 14,
+      "id": "FJ3168",
+      "name": "Fifth lumbar vertebra",
+      "conceptId": "FMA13076",
+      "system": "skeletal"
+    },
+    {
+      "index": 15,
+      "id": "FJ3169",
+      "name": "Fifth thoracic vertebra",
+      "conceptId": "FMA9922",
+      "system": "skeletal"
+    },
+    {
+      "index": 16,
+      "id": "FJ3170",
+      "name": "Sixth cervical vertebra",
+      "conceptId": "FMA12524",
+      "system": "skeletal"
+    },
+    {
+      "index": 17,
+      "id": "FJ3171",
+      "name": "Sixth thoracic vertebra",
+      "conceptId": "FMA9945",
+      "system": "skeletal"
+    },
+    {
+      "index": 18,
+      "id": "FJ3172",
+      "name": "Seventh cervical vertebra",
+      "conceptId": "FMA12525",
+      "system": "skeletal"
+    },
+    {
+      "index": 19,
+      "id": "FJ3173",
+      "name": "Seventh thoracic vertebra",
+      "conceptId": "FMA9968",
+      "system": "skeletal"
+    },
+    {
+      "index": 20,
+      "id": "FJ3174",
+      "name": "Eighth thoracic vertebra",
+      "conceptId": "FMA9991",
+      "system": "skeletal"
+    },
+    {
+      "index": 21,
+      "id": "FJ3175",
+      "name": "Ninth thoracic vertebra",
+      "conceptId": "FMA10014",
+      "system": "skeletal"
+    },
+    {
+      "index": 22,
+      "id": "FJ3176",
+      "name": "Atlas",
+      "conceptId": "FMA12519",
+      "system": "skeletal"
+    },
+    {
+      "index": 23,
+      "id": "FJ3177",
+      "name": "Axis",
+      "conceptId": "FMA12520",
+      "system": "skeletal"
+    },
+    {
+      "index": 24,
+      "id": "FJ3202",
+      "name": "Intervertebral disk of axis",
+      "conceptId": "FMA25058",
+      "system": "skeletal"
+    },
+    {
+      "index": 25,
+      "id": "FJ3203",
+      "name": "Intervertebral disk of fourth thoracic vertebra",
+      "conceptId": "FMA13501",
+      "system": "skeletal"
+    },
+    {
+      "index": 26,
+      "id": "FJ3204",
+      "name": "Intervertebral disk of fifth thoracic vertebra",
+      "conceptId": "FMA13502",
+      "system": "skeletal"
+    },
+    {
+      "index": 27,
+      "id": "FJ3205",
+      "name": "Intervertebral disk of sixth thoracic vertebra",
+      "conceptId": "FMA13503",
+      "system": "skeletal"
+    },
+    {
+      "index": 28,
+      "id": "FJ3206",
+      "name": "Intervertebral disk of seventh thoracic vertebra",
+      "conceptId": "FMA13504",
+      "system": "skeletal"
+    },
+    {
+      "index": 29,
+      "id": "FJ3207",
+      "name": "Intervertebral disk of eighth thoracic vertebra",
+      "conceptId": "FMA13505",
+      "system": "skeletal"
+    },
+    {
+      "index": 30,
+      "id": "FJ3208",
+      "name": "Intervertebral disk of ninth thoracic vertebra",
+      "conceptId": "FMA13506",
+      "system": "skeletal"
+    },
+    {
+      "index": 31,
+      "id": "FJ3209",
+      "name": "Intervertebral disk of tenth thoracic vertebra",
+      "conceptId": "FMA13507",
+      "system": "skeletal"
+    },
+    {
+      "index": 32,
+      "id": "FJ3210",
+      "name": "Intervertebral disk of eleventh thoracic vertebra",
+      "conceptId": "FMA13508",
+      "system": "skeletal"
+    },
+    {
+      "index": 33,
+      "id": "FJ3211",
+      "name": "Intervertebral disk",
+      "conceptId": "FMA10446",
+      "system": "skeletal"
+    },
+    {
+      "index": 34,
+      "id": "FJ3212",
+      "name": "Intervertebral disk of first lumbar vertebra",
+      "conceptId": "FMA16033",
+      "system": "skeletal"
+    },
+    {
+      "index": 35,
+      "id": "FJ3213",
+      "name": "Intervertebral disk of third cervical vertebra",
+      "conceptId": "FMA13896",
+      "system": "skeletal"
+    },
+    {
+      "index": 36,
+      "id": "FJ3214",
+      "name": "Intervertebral disk of second lumbar vertebra",
+      "conceptId": "FMA16034",
+      "system": "skeletal"
+    },
+    {
+      "index": 37,
+      "id": "FJ3215",
+      "name": "Intervertebral disk of third lumbar vertebra",
+      "conceptId": "FMA16035",
+      "system": "skeletal"
+    },
+    {
+      "index": 38,
+      "id": "FJ3216",
+      "name": "Intervertebral disk of fourth lumbar vertebra",
+      "conceptId": "FMA16036",
+      "system": "skeletal"
+    },
+    {
+      "index": 39,
+      "id": "FJ3217",
+      "name": "Intervertebral disk of fifth lumbar vertebra",
+      "conceptId": "FMA16037",
+      "system": "skeletal"
+    },
+    {
+      "index": 40,
+      "id": "FJ3218",
+      "name": "Intervertebral disk of fourth cervical vertebra",
+      "conceptId": "FMA13897",
+      "system": "skeletal"
+    },
+    {
+      "index": 41,
+      "id": "FJ3219",
+      "name": "Intervertebral disk of fifth cervical vertebra",
+      "conceptId": "FMA13898",
+      "system": "skeletal"
+    },
+    {
+      "index": 42,
+      "id": "FJ3220",
+      "name": "Intervertebral disk of sixth cervical vertebra",
+      "conceptId": "FMA13899",
+      "system": "skeletal"
+    },
+    {
+      "index": 43,
+      "id": "FJ3221",
+      "name": "Intervertebral disk of seventh cervical vertebra",
+      "conceptId": "FMA13900",
+      "system": "skeletal"
+    },
+    {
+      "index": 44,
+      "id": "FJ3222",
+      "name": "Intervertebral disk of first thoracic vertebra",
+      "conceptId": "FMA10458",
+      "system": "skeletal"
+    },
+    {
+      "index": 45,
+      "id": "FJ3223",
+      "name": "Intervertebral disk of second thoracic vertebra",
+      "conceptId": "FMA13495",
+      "system": "skeletal"
+    },
+    {
+      "index": 46,
+      "id": "FJ3224",
+      "name": "Intervertebral disk of third thoracic vertebra",
+      "conceptId": "FMA13500",
+      "system": "skeletal"
+    },
+    {
+      "index": 47,
+      "id": "FJ3393",
+      "name": "Sacrum",
+      "conceptId": "FMA16202",
+      "system": "skeletal"
+    }
+  ]
+}

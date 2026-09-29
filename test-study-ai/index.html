@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protiva · Study Workspace with Nova AI Tutor</title>
+  <style>
+    :root {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #0f1117;
+      color: #f1f5f9;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+      background: #0d0f14;
+    }
+
+    /* Top Navigation Bar */
+    .top-bar {
+      height: 48px;
+      background: #14171f;
+      border-bottom: 1px solid #1e232f;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 16px;
+      font-size: 13px;
+      color: #94a3b8;
+    }
+    .doc-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .doc-title {
+      color: #e2e8f0;
+      font-weight: 500;
+    }
+    .page-indicator {
+      background: #1e232f;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 11px;
+    }
+    .top-tools {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .credits-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      color: #f59e0b;
+      background: #f59e0b14;
+      border: 1px solid #f59e0b30;
+      padding: 3px 10px;
+      border-radius: 9999px;
+    }
+
+    /* Workspace Body */
+    .workspace {
+      flex: 1;
+      display: flex;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Thumbnails Sidebar */
+    .slide-sidebar {
+      width: 80px;
+      background: #11131a;
+      border-right: 1px solid #1e232f;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 12px 0;
+      gap: 12px;
+      overflow-y: auto;
+    }
+    .slide-thumb {
+      width: 58px;
+      height: 40px;
+      background: #1e232f;
+      border: 1px solid #334155;
+      border-radius: 4px;
+      font-size: 9px;
+      color: #64748b;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .slide-thumb.active {
+      border-color: #f59e0b;
+      box-shadow: 0 0 0 1px #f59e0b;
+    }
+
+    /* Document Slide View */
+    .slide-viewer {
+      flex: 1;
+      overflow-y: auto;
+      display: flex;
+      justify-content: center;
+      padding: 30px;
+      background: #090a0f;
+    }
+    .slide-page {
+      width: 100%;
+      max-width: 820px;
+      background: #141720;
+      border: 1px solid #1e2433;
+      border-radius: 12px;
+      padding: 44px 50px;
+      color: #e2e8f0;
+      line-height: 1.6;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+    }
+    .slide-page h1 {
+      font-size: 32px;
+      margin-bottom: 24px;
+      font-weight: 600;
+      color: #ffffff;
+      border-bottom: 1px solid #1e293b;
+      padding-bottom: 12px;
+    }
+    .slide-page h2 {
+      font-size: 20px;
+      margin: 28px 0 12px;
+      color: #f8fafc;
+    }
+    .slide-page p {
+      font-size: 15px;
+      color: #cbd5e1;
+      margin-bottom: 16px;
+    }
+    .slide-page ul {
+      margin-left: 24px;
+      margin-bottom: 20px;
+    }
+    .slide-page li {
+      font-size: 14px;
+      color: #94a3b8;
+      margin-bottom: 8px;
+    }
+    .slide-page li strong {
+      color: #f1f5f9;
+    }
+
+    /* Floating Nova AI Chatbot Panel */
+    .nova-chat {
+      position: absolute;
+      right: 28px;
+      bottom: 24px;
+      width: 450px;
+      height: 610px;
+      max-height: calc(100vh - 100px);
+      background: #141720f5;
+      backdrop-filter: blur(24px);
+      border: 1px solid #23293a;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+      display: flex;
+      flex-direction: column;
+      z-index: 40;
+      overflow: hidden;
+    }
+
+    /* Nova Header */
+    .nova-header {
+      padding: 12px 16px;
+      border-bottom: 1px solid #1e2638;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #12151e;
+    }
+    .nova-identity {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+    .nova-avatar {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #f59e0b, #ef4444);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+    }
+    .nova-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: #f8fafc;
+    }
+    .nova-subtitle {
+      font-size: 11px;
+      color: #64748b;
+    }
+    .nova-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .nova-btn {
+      background: #1c2233;
+      border: 1px solid #2a3348;
+      color: #94a3b8;
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .nova-btn:hover {
+      color: #ffffff;
+      background: #252d44;
+    }
+
+    /* Context Filter Tabs */
+    .nova-tabs {
+      display: flex;
+      gap: 6px;
+      padding: 8px 16px;
+      border-bottom: 1px solid #1a2030;
+      background: #0f121a;
+    }
+    .nova-tab {
+      font-size: 11px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid #252d42;
+      background: #161b28;
+      color: #94a3b8;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .nova-tab.active {
+      border-color: #f59e0b80;
+      color: #f59e0b;
+      background: #f59e0b12;
+    }
+
+    /* Message Stream */
+    .nova-messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      scroll-behavior: smooth;
+    }
+    .chat-bubble {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      max-width: 98%;
+    }
+    .chat-bubble.user {
+      align-self: flex-end;
+    }
+    .chat-bubble.assistant {
+      align-self: flex-start;
+    }
+    .bubble-content {
+      padding: 11px 15px;
+      border-radius: 12px;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+    .chat-bubble.user .bubble-content {
+      background: #2563eb;
+      color: #ffffff;
+      border-bottom-right-radius: 3px;
+    }
+    .chat-bubble.assistant .bubble-content {
+      background: #1a2030;
+      color: #cbd5e1;
+      border-bottom-left-radius: 3px;
+      border: 1px solid #263048;
+    }
+
+    /* Compact Multi-Organ Carousel Slider */
+    .organ-slider-wrap {
+      margin-top: 10px;
+      position: relative;
+      width: 100%;
+    }
+    .organ-slider-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 6px;
+      font-size: 11px;
+      color: #94a3b8;
+    }
+    .slider-nav-btns {
+      display: flex;
+      gap: 4px;
+    }
+    .slider-nav-btn {
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+      border: 1px solid #2d3850;
+      background: #161c2a;
+      color: #94a3b8;
+      font-size: 11px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .slider-nav-btn:hover {
+      background: #232d42;
+      color: #ffffff;
+    }
+    .organ-slider {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      padding-bottom: 4px;
+      scrollbar-width: thin;
+      scrollbar-color: #263048 transparent;
+    }
+    .organ-thumb-card {
+      flex: 0 0 142px;
+      scroll-snap-align: start;
+      background: #111520;
+      border: 1px solid #232c3e;
+      border-radius: 11px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      user-select: none;
+      position: relative;
+    }
+    .organ-thumb-card:hover {
+      border-color: #38bdf8;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(56, 189, 248, 0.18);
+    }
+    .thumb-preview-box {
+      height: 92px;
+      width: 100%;
+      position: relative;
+      background: radial-gradient(circle at center, #1b2434 0%, #0c1017 100%);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .thumb-preview-box img {
+      max-width: 86%;
+      max-height: 86%;
+      object-fit: contain;
+      filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.5));
+      transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      user-select: none;
+      pointer-events: none;
+    }
+    .organ-thumb-card:hover .thumb-preview-box img {
+      transform: scale(1.08);
+    }
+    .thumb-preview-box iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      pointer-events: none;
+    }
+    .thumb-badge {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      background: rgba(15, 23, 42, 0.82);
+      backdrop-filter: blur(6px);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      color: #38bdf8;
+      font-size: 9px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 5px;
+      letter-spacing: 0.5px;
+    }
+    .thumb-card-body {
+      padding: 7px 10px 8px;
+      background: #131824;
+      border-top: 1px solid #1a2334;
+    }
+    .thumb-card-title {
+      font-size: 12px;
+      font-weight: 600;
+      color: #f1f5f9;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .thumb-card-meta {
+      font-size: 10px;
+      color: #64748b;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 3px;
+    }
+    .thumb-card-meta span {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .thumb-card-arrow {
+      color: #38bdf8;
+      font-weight: 600;
+      font-size: 10px;
+    }
+
+    /* Chat Input Area */
+    .nova-input-wrap {
+      padding: 12px;
+      border-top: 1px solid #1e2638;
+      background: #11141e;
+    }
+    .quick-chips {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 8px;
+      overflow-x: auto;
+      padding-bottom: 2px;
+      scrollbar-width: none;
+    }
+    .quick-chip {
+      font-size: 11px;
+      padding: 4px 9px;
+      border-radius: 9999px;
+      border: 1px solid #232b3e;
+      background: #171d2b;
+      color: #94a3b8;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    .quick-chip:hover {
+      background: #212a40;
+      color: #f8fafc;
+      border-color: #38bdf860;
+    }
+    .input-box {
+      display: flex;
+      align-items: center;
+      background: #181d2a;
+      border: 1px solid #29344c;
+      border-radius: 10px;
+      padding: 4px 8px;
+    }
+    .input-box input {
+      flex: 1;
+      background: transparent;
+      border: 0;
+      color: #ffffff;
+      font-size: 13px;
+      padding: 8px;
+      outline: none;
+    }
+    .input-box input::placeholder {
+      color: #55627a;
+    }
+    .send-btn {
+      background: #2563eb;
+      color: white;
+      border: 0;
+      border-radius: 8px;
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 13px;
+    }
+
+    /* 3D Anatomy Lightbox Popup Modal */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(4, 7, 13, 0.82);
+      backdrop-filter: blur(16px);
+      z-index: 100;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      animation: fadeIn 0.2s ease-out;
+    }
+    .modal-backdrop.open {
+      display: flex;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.98); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .modal-dialog {
+      width: 100%;
+      max-width: 1100px;
+      height: 86vh;
+      max-height: 820px;
+      background: #141824;
+      border: 1px solid #2a344a;
+      border-radius: 20px;
+      box-shadow: 0 25px 70px rgba(0,0,0,0.7);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      position: relative;
+    }
+    .modal-header {
+      padding: 14px 20px;
+      border-bottom: 1px solid #1e2638;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #0f121a;
+    }
+    .modal-title-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .modal-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: #f8fafc;
+      text-transform: capitalize;
+    }
+    .modal-tag {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 9999px;
+      background: #10b98118;
+      border: 1px solid #10b98140;
+      color: #34d399;
+    }
+    .modal-controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .modal-btn {
+      background: #1e2538;
+      border: 1px solid #2d3850;
+      color: #94a3b8;
+      font-size: 12px;
+      padding: 6px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .modal-btn:hover {
+      background: #2b354d;
+      color: #ffffff;
+    }
+    .modal-close-btn {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      border: 1px solid #2d3850;
+      background: #1e2538;
+      color: #94a3b8;
+      font-size: 14px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .modal-close-btn:hover {
+      background: #ef444420;
+      border-color: #ef444450;
+      color: #ef4444;
+    }
+    .modal-frame-wrap {
+      flex: 1;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background: #f2f3f3;
+    }
+    .modal-frame-wrap iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .modal-part-toast {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(15, 23, 42, 0.94);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      color: #ffffff;
+      padding: 9px 18px;
+      border-radius: 9999px;
+      font-size: 12px;
+      display: none;
+      align-items: center;
+      gap: 8px;
+      z-index: 10;
+      pointer-events: none;
+    }
+    .modal-part-toast.show {
+      display: flex;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Protiva Navigation Bar -->
+  <header class="top-bar">
+    <div class="doc-meta">
+      <span class="doc-title">Active_Cardiovascular_Physiology_Recolored.pdf</span>
+      <span class="page-indicator">Page 2 of 16</span>
+    </div>
+    <div class="top-tools">
+      <div class="credits-badge">⚡ 3.0K CREDITS</div>
+      <span style="font-size: 11px;">Nova AI Assistant: Active</span>
+    </div>
+  </header>
+
+  <!-- Main Study Workspace -->
+  <div class="workspace">
+    <!-- Slide Thumbnails Bar -->
+    <div class="slide-sidebar">
+      <div class="slide-thumb">1</div>
+      <div class="slide-thumb active">2</div>
+      <div class="slide-thumb">3</div>
+      <div class="slide-thumb">4</div>
+      <div class="slide-thumb">5</div>
+    </div>
+
+    <!-- Active PDF / Study Slide Viewer -->
+    <div class="slide-viewer">
+      <div class="slide-page">
+        <h1>Human Cardiovascular System: The Heart</h1>
+        <p>The heart is the primary organ responsible for circulating oxygenated and deoxygenated blood throughout the human body. Situated in the middle mediastinum of the thoracic cavity, it functions as a dual muscular pump operating through coordinated electrical and mechanical phases.</p>
+        
+        <h2>Key Anatomical Substructures:</h2>
+        <ul>
+          <li><strong>Right & Left Atria:</strong> Receiving chambers that collect systemic venous blood (via superior/inferior vena cava) and pulmonary venous blood.</li>
+          <li><strong>Right & Left Ventricles:</strong> High-pressure muscular chambers responsible for pulmonary and systemic ejection.</li>
+          <li><strong>Coronary Circulation:</strong> Anterior interventricular and circumflex branches delivering oxygen to cardiac myocardium.</li>
+          <li><strong>Atrioventricular & Semilunar Valves:</strong> Tricuspid, bicuspid (mitral), aortic, and pulmonary valves preventing regurgitant backflow.</li>
+        </ul>
+
+        <h2>Hemodynamic Principles:</h2>
+        <p>Stroke volume and cardiac output depend heavily on myocardial contractility, venous return (preload), and total peripheral systemic resistance (afterload). Below, you can consult Nova AI to inspect any chamber or vessel in 3D.</p>
+      </div>
+    </div>
+
+    <!-- Floating Nova AI Chatbot Panel -->
+    <div class="nova-chat">
+      <div class="nova-header">
+        <div class="nova-identity">
+          <div class="nova-avatar">⭐</div>
+          <div>
+            <div class="nova-name">Nova</div>
+            <div class="nova-subtitle">Page 2 · Anatomy & Physiology</div>
+          </div>
+        </div>
+        <div class="nova-actions">
+          <button class="nova-btn" id="toggle-mode-btn" onclick="toggleCardMode()" title="Switch between static WebP (0ms) and live 3D">⚡ WebP (0ms)</button>
+          <button class="nova-btn" onclick="clearChat()">Clear</button>
+        </div>
+      </div>
+
+      <!-- Context Tabs -->
+      <div class="nova-tabs">
+        <div class="nova-tab active">📄 Document</div>
+        <div class="nova-tab">📑 Page 2</div>
+        <div class="nova-tab">🌐 Web</div>
+      </div>
+
+      <!-- Messages Thread -->
+      <div class="nova-messages" id="chat-messages">
+        <!-- Initial Tutor Welcome Message with Multi-Organ Slider -->
+        <div class="chat-bubble assistant">
+          <div class="bubble-content">
+            Hello! I've analyzed <strong>Page 2</strong> of your cardiology notes. Here are the relevant 3D anatomical structures. Scroll through the cards below and tap any organ to open its interactive 3D view:
+            
+            <!-- Multi-Organ Horizontal Slider -->
+            <div class="organ-slider-wrap">
+              <div class="organ-slider-header">
+                <span>Interactive 3D Structures (5 available)</span>
+                <div class="slider-nav-btns">
+                  <button class="slider-nav-btn" onclick="scrollSlider('slider-welcome', -150)">‹</button>
+                  <button class="slider-nav-btn" onclick="scrollSlider('slider-welcome', 150)">›</button>
+                </div>
+              </div>
+              <div class="organ-slider" id="slider-welcome">
+                <!-- Card 1: Heart -->
+                <div class="organ-thumb-card" onclick="open3DModal('heart', 'Human Heart', 83)">
+                  <div class="thumb-preview-box">
+                    <img src="/thumbnails/heart.webp" alt="heart" loading="lazy">
+                    <span class="thumb-badge">⚡ 3D</span>
+                  </div>
+                  <div class="thumb-card-body">
+                    <div class="thumb-card-title">🫀 Heart</div>
+                    <div class="thumb-card-meta">
+                      <span>83 parts</span>
+                      <span class="thumb-card-arrow">↗</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 2: Trachea / Airway -->
+                <div class="organ-thumb-card" onclick="open3DModal('trachea', 'Trachea & Airways', 1)">
+                  <div class="thumb-preview-box">
+                    <img src="/thumbnails/trachea.webp" alt="trachea" loading="lazy">
+                    <span class="thumb-badge">⚡ 3D</span>
+                  </div>
+                  <div class="thumb-card-body">
+                    <div class="thumb-card-title">🫁 Trachea</div>
+                    <div class="thumb-card-meta">
+                      <span>Respiratory</span>
+                      <span class="thumb-card-arrow">↗</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 3: Brain -->
+                <div class="organ-thumb-card" onclick="open3DModal('brain', 'Brain', 59)">
+                  <div class="thumb-preview-box">
+                    <img src="/thumbnails/brain.webp" alt="brain" loading="lazy">
+                    <span class="thumb-badge">⚡ 3D</span>
+                  </div>
+                  <div class="thumb-card-body">
+                    <div class="thumb-card-title">🧠 Brain</div>
+                    <div class="thumb-card-meta">
+                      <span>59 parts</span>
+                      <span class="thumb-card-arrow">↗</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 4: Stomach -->
+                <div class="organ-thumb-card" onclick="open3DModal('stomach', 'Stomach', 1)">
+                  <div class="thumb-preview-box">
+                    <img src="/thumbnails/stomach.webp" alt="stomach" loading="lazy">
+                    <span class="thumb-badge">⚡ 3D</span>
+                  </div>
+                  <div class="thumb-card-body">
+                    <div class="thumb-card-title">🍱 Stomach</div>
+                    <div class="thumb-card-meta">
+                      <span>Digestive</span>
+                      <span class="thumb-card-arrow">↗</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 5: Femur -->
+                <div class="organ-thumb-card" onclick="open3DModal('femur', 'Femur Bone', 2)">
+                  <div class="thumb-preview-box">
+                    <img src="/thumbnails/femur.webp" alt="femur" loading="lazy">
+                    <span class="thumb-badge">⚡ 3D</span>
+                  </div>
+                  <div class="thumb-card-body">
+                    <div class="thumb-card-title">🦴 Femur</div>
+                    <div class="thumb-card-meta">
+                      <span>Skeletal</span>
+                      <span class="thumb-card-arrow">↗</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Chat Input Area -->
+      <div class="nova-input-wrap">
+        <!-- Quick Prompt Chips -->
+        <div class="quick-chips">
+          <button class="quick-chip" onclick="askMultiOrgans('Thoracic Organs', ['heart', 'trachea'])">🫀 Thoracic Organs</button>
+          <button class="quick-chip" onclick="askMultiOrgans('Digestive Organs', ['stomach', 'liver'])">🍱 Digestive</button>
+          <button class="quick-chip" onclick="startQuiz('heart', 'mitral valve')">🎯 Quiz: Heart Valves</button>
+          <button class="quick-chip" onclick="askOrgan('brain', 'Brain Structure', 59)">🧠 Brain</button>
+          <button class="quick-chip" onclick="askOrgan('femur', 'Femur Bone', 2)">🦴 Femur</button>
+        </div>
+        <div class="input-box">
+          <input type="text" id="chat-input" placeholder="Ask Nova in English... (Shift+Enter for newline)" onkeydown="if(event.key==='Enter')sendMessage()">
+          <button class="send-btn" onclick="sendMessage()">➤</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3D Lightbox Popup Modal Dialog -->
+  <div class="modal-backdrop" id="modal-backdrop" onclick="if(event.target===this)close3DModal()">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span style="font-size: 18px;">🫀</span>
+          <span class="modal-title" id="modal-organ-name">Human Heart</span>
+          <span class="modal-tag" id="modal-parts-tag">83 parts · Isolated View</span>
+        </div>
+        <div class="modal-controls">
+          <button class="modal-btn" onclick="triggerSlice()">🔪 Cross-Section</button>
+          <button class="modal-btn" onclick="triggerReset()">🔄 Front View</button>
+          <button class="modal-close-btn" onclick="close3DModal()" title="Close 3D viewer">✕</button>
+        </div>
+      </div>
+      <div class="modal-frame-wrap">
+        <iframe id="modal-iframe" src="about:blank"></iframe>
+        <div class="modal-part-toast" id="part-toast">
+          <span>🔍</span>
+          <span id="toast-text">Selected Part</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const messagesEl = document.getElementById('chat-messages');
+    const inputEl = document.getElementById('chat-input');
+    const modalBackdrop = document.getElementById('modal-backdrop');
+    const modalIframe = document.getElementById('modal-iframe');
+    const modalTitle = document.getElementById('modal-organ-name');
+    const modalTag = document.getElementById('modal-parts-tag');
+    const toastEl = document.getElementById('part-toast');
+    const toastText = document.getElementById('toast-text');
+
+    const ATLAS_BASE_URL = window.ATLAS_BASE_URL || (window.location.hostname === 'localhost' ? 'http://localhost:3016' : '');
+
+    let activeOrgan = 'heart';
+    let sliceActive = false;
+    let sliderCounter = 0;
+    let thumbnailMode = 'webp'; // 'webp' | '3d'
+    const activeSliders = new Map();
+
+    function renderCardHtml(orgKey) {
+      const info = ORGAN_REGISTRY[orgKey] || { title: orgKey, icon: '🫀', count: 1, system: 'Anatomy' };
+      const preview = thumbnailMode === 'webp'
+        ? `<img src="${ATLAS_BASE_URL}/thumbnails/${orgKey}.webp" alt="${info.title}" loading="lazy"><span class="thumb-badge">⚡ 3D</span>`
+        : `<iframe src="${ATLAS_BASE_URL}/?organ=${orgKey}&isolate=true&embed=true&mini=true&rotate=true"></iframe><span class="thumb-badge">3D</span>`;
+      return `
+        <div class="organ-thumb-card" onclick="open3DModal('${orgKey}', '${info.title}', ${info.count})">
+          <div class="thumb-preview-box">${preview}</div>
+          <div class="thumb-card-body">
+            <div class="thumb-card-title">${info.icon} ${info.title}</div>
+            <div class="thumb-card-meta">
+              <span>${info.count} ${info.count === 1 ? 'part' : 'parts'}</span>
+              <span class="thumb-card-arrow">↗</span>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function toggleCardMode() {
+      thumbnailMode = (thumbnailMode === 'webp') ? '3d' : 'webp';
+      const btn = document.getElementById('toggle-mode-btn');
+      if (btn) btn.textContent = (thumbnailMode === 'webp') ? '⚡ WebP (0ms)' : '🌐 Live 3D';
+      
+      const welcomeSlider = document.getElementById('slider-welcome');
+      if (welcomeSlider) {
+        welcomeSlider.innerHTML = ['heart', 'trachea', 'brain', 'stomach', 'femur'].map(renderCardHtml).join('');
+      }
+      activeSliders.forEach((organs, id) => {
+        const el = document.getElementById(id);
+        if (el) el.innerHTML = organs.map(renderCardHtml).join('');
+      });
+    }
+
+    const ORGAN_REGISTRY = {
+      heart: { title: 'Human Heart', icon: '🫀', count: 83, system: 'Cardiovascular' },
+      trachea: { title: 'Trachea', icon: '🫁', count: 1, system: 'Respiratory' },
+      brain: { title: 'Brain', icon: '🧠', count: 59, system: 'Nervous' },
+      liver: { title: 'Liver', icon: '🩸', count: 60, system: 'Digestive' },
+      stomach: { title: 'Stomach', icon: '🍱', count: 1, system: 'Digestive' },
+      femur: { title: 'Femur Bone', icon: '🦴', count: 2, system: 'Skeletal' }
+    };
+
+    function scrollSlider(id, amount) {
+      const el = document.getElementById(id);
+      if (el) el.scrollBy({ left: amount, behavior: 'smooth' });
+    }
+
+    // Open the 3D Lightbox Popup
+    function open3DModal(organ, displayName, partsCount, isQuiz, quizTarget) {
+      activeOrgan = organ;
+      modalTitle.textContent = isQuiz ? `Quiz: Find ${quizTarget}` : (displayName || organ);
+      modalTag.textContent = isQuiz ? `Active Recall · Labels Masked` : `${partsCount || 'Multiple'} pieces · Front View`;
+      modalBackdrop.classList.add('open');
+      const url = isQuiz 
+        ? `${ATLAS_BASE_URL}/?organ=${organ}&isolate=true&embed=true&view=front&mode=quiz&quizTarget=${encodeURIComponent(quizTarget)}`
+        : `${ATLAS_BASE_URL}/?organ=${organ}&isolate=true&embed=true&view=front`;
+      modalIframe.src = url;
+    }
+
+    function startQuiz(organ, target) {
+      appendMessage('user', `Quiz me on the ${organ}!`);
+      setTimeout(() => {
+        appendMessage('assistant', `🎯 **Active Recall Challenge**: Can you locate the **${target}** on this ${organ}? Tap the card below to enter Quiz Mode:`);
+        const sliderId = `slider-quiz-${Date.now()}`;
+        const cardHtml = `
+          <div class="organ-thumb-card" onclick="open3DModal('${organ}', '${organ}', 83, true, '${target}')">
+            <div class="thumb-preview-box">
+              <img src="${ATLAS_BASE_URL}/thumbnails/${organ}.webp" alt="${organ}" loading="lazy">
+              <span class="thumb-badge" style="background:#dc2626;color:white;">🎯 QUIZ</span>
+            </div>
+            <div class="thumb-card-body">
+              <div class="thumb-card-title">🎯 Find: ${target}</div>
+              <div class="thumb-card-meta">
+                <span>Tap to begin quiz</span>
+                <span class="thumb-card-arrow">↗</span>
+              </div>
+            </div>
+          </div>
+        `;
+        const html = `<div class="organ-slider-wrap"><div class="organ-slider" id="${sliderId}">${cardHtml}</div></div>`;
+        appendMessage('assistant', html);
+      }, 400);
+    }
+
+    // Close the 3D Lightbox Popup
+    function close3DModal() {
+      modalBackdrop.classList.remove('open');
+      modalIframe.src = 'about:blank';
+    }
+
+    // Modal Control Helpers
+    function triggerSlice() {
+      sliceActive = !sliceActive;
+      modalIframe.contentWindow.postMessage({
+        type: 'CMD_SET_SLICE',
+        payload: { active: sliceActive, axis: 'coronal', value: 0.5 }
+      }, '*');
+    }
+
+    function triggerReset() {
+      modalIframe.contentWindow.postMessage({ type: 'CMD_RESET' }, '*');
+      modalIframe.contentWindow.postMessage({ type: 'CMD_SET_VIEW', payload: { view: 'front' } }, '*');
+    }
+
+    // Send User Message & Trigger Nova Response
+    function sendMessage() {
+      const text = inputEl.value.trim();
+      if (!text) return;
+      inputEl.value = '';
+
+      // User Message
+      appendMessage('user', text);
+
+      const lower = text.toLowerCase();
+      let organs = ['heart'];
+      if (lower.includes('chest') || lower.includes('thoracic') || lower.includes('lung')) {
+        organs = ['heart', 'trachea'];
+      } else if (lower.includes('digestive') || lower.includes('belly') || lower.includes('abdomen')) {
+        organs = ['stomach', 'liver'];
+      } else if (lower.includes('brain') || lower.includes('head')) {
+        organs = ['brain'];
+      } else if (lower.includes('femur') || lower.includes('bone') || lower.includes('leg')) {
+        organs = ['femur'];
+      }
+
+      setTimeout(() => {
+        respondWithSlider(organs, `Here are the relevant 3D anatomical structures. Scroll through the slider and tap to inspect in 3D:`);
+      }, 500);
+    }
+
+    function askOrgan(organ, label, count) {
+      appendMessage('user', `Can you explain the 3D structure of the ${label}?`);
+      setTimeout(() => {
+        respondWithSlider([organ], `Here is the anatomical model for **${label}**. Tap the card to inspect its full 3D geometry:`);
+      }, 450);
+    }
+
+    function askMultiOrgans(label, organsList) {
+      appendMessage('user', `Can you show me the 3D models for ${label}?`);
+      setTimeout(() => {
+        respondWithSlider(organsList, `Here are the 3D anatomical structures for **${label}**. Scroll horizontally through the slider cards:`);
+      }, 450);
+    }
+
+    function appendMessage(role, html) {
+      const bubble = document.createElement('div');
+      bubble.className = `chat-bubble ${role}`;
+      bubble.innerHTML = `<div class="bubble-content">${html}</div>`;
+      messagesEl.appendChild(bubble);
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+
+    function respondWithSlider(organsList, text) {
+      sliderCounter++;
+      const sliderId = `slider-${sliderCounter}`;
+
+      activeSliders.set(sliderId, organsList);
+      const cardsHtml = organsList.map(renderCardHtml).join('');
+
+      const html = `
+        ${text}
+        <div class="organ-slider-wrap">
+          ${organsList.length > 1 ? `
+            <div class="organ-slider-header">
+              <span>${organsList.length} structures available</span>
+              <div class="slider-nav-btns">
+                <button class="slider-nav-btn" onclick="scrollSlider('${sliderId}', -150)">‹</button>
+                <button class="slider-nav-btn" onclick="scrollSlider('${sliderId}', 150)">›</button>
+              </div>
+            </div>
+          ` : ''}
+          <div class="organ-slider" id="${sliderId}">
+            ${cardsHtml}
+          </div>
+        </div>
+      `;
+      appendMessage('assistant', html);
+    }
+
+    function clearChat() {
+      messagesEl.innerHTML = '';
+      respondWithSlider(['heart', 'trachea', 'brain', 'stomach', 'femur'], 'Chat reset. Scroll through the 3D organ slider below and tap any card to open the interactive viewer:');
+    }
+
+    // Listen for postMessage from the 3D Modal iframe
+    window.addEventListener('message', (e) => {
+      if (!e.data || typeof e.data !== 'object') return;
+      const { type, payload } = e.data;
+
+      if (type === 'EVT_PART_CLICKED') {
+        toastText.textContent = `Inspected: ${payload.name} (${payload.system})`;
+        toastEl.classList.add('show');
+        setTimeout(() => toastEl.classList.remove('show'), 3500);
+
+        appendMessage('assistant', `💡 **Structure Selected in 3D**: *${payload.name}* (System: **${payload.system}**). This is an integral landmark of the ${activeOrgan}.`);
+      } else if (type === 'EVT_QUIZ_ANSWER') {
+        const isCorrect = payload.isCorrect;
+        const icon = isCorrect ? '🎉' : '⚠️';
+        toastText.textContent = isCorrect 
+          ? `Quiz Match: ${payload.name} (Correct!)`
+          : `Clicked: ${payload.name} (Target: ${payload.quizTarget})`;
+        toastEl.classList.add('show');
+        setTimeout(() => toastEl.classList.remove('show'), 3500);
+
+        appendMessage('assistant', isCorrect
+          ? `${icon} **Quiz Passed!** You correctly identified the *${payload.name}*!`
+          : `${icon} **Quiz Attempt:** You clicked *${payload.name}*. Look for the *${payload.quizTarget}* and try again!`);
+      }
+    });
+
+    // Close on Escape key
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modalBackdrop.classList.contains('open')) {
+        close3DModal();
+      }
+    });
+  </script>
+</body>
+</html>

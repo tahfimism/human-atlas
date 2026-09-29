@@ -1,0 +1,120 @@
+{
+  "id": "FMA79876",
+  "name": "brainstem",
+  "slug": "brainstem",
+  "elementsCount": 11,
+  "triangles": 12602,
+  "vertexCount": 8620,
+  "system": "nervous",
+  "bounds": [
+    [
+      -0.021083200350403786,
+      -0.04091000556945801,
+      -0.0228546493453905
+    ],
+    [
+      0.021083200350403786,
+      0.04091000556945801,
+      0.0228546493453905
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.021745000034570694,
+      1.5426511764526367,
+      -0.04874559864401817
+    ],
+    [
+      0.020421400666236877,
+      1.6244711875915527,
+      -0.003036299953237176
+    ]
+  ],
+  "center": [
+    -0.0006617996841669083,
+    1.5835611820220947,
+    -0.025890949298627675
+  ],
+  "byteSize": 301068,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ1738",
+      "name": "Cerebral aqueduct",
+      "conceptId": "FMA78467",
+      "system": "nervous"
+    },
+    {
+      "index": 1,
+      "id": "FJ1762",
+      "name": "Left inferior colliculus",
+      "conceptId": "FMA73435",
+      "system": "nervous"
+    },
+    {
+      "index": 2,
+      "id": "FJ1769",
+      "name": "Medulla oblongata",
+      "conceptId": "FMA62004",
+      "system": "nervous"
+    },
+    {
+      "index": 3,
+      "id": "FJ1770",
+      "name": "Midbrain",
+      "conceptId": "FMA61993",
+      "system": "nervous"
+    },
+    {
+      "index": 4,
+      "id": "FJ1775",
+      "name": "Pons",
+      "conceptId": "FMA67943",
+      "system": "nervous"
+    },
+    {
+      "index": 5,
+      "id": "FJ1779",
+      "name": "Left superior colliculus",
+      "conceptId": "FMA73423",
+      "system": "nervous"
+    },
+    {
+      "index": 6,
+      "id": "FJ1810",
+      "name": "Right inferior colliculus",
+      "conceptId": "FMA73434",
+      "system": "nervous"
+    },
+    {
+      "index": 7,
+      "id": "FJ1817",
+      "name": "Midbrain",
+      "conceptId": "FMA61993",
+      "system": "nervous"
+    },
+    {
+      "index": 8,
+      "id": "FJ1822",
+      "name": "Pons",
+      "conceptId": "FMA67943",
+      "system": "nervous"
+    },
+    {
+      "index": 9,
+      "id": "FJ1826",
+      "name": "Right superior colliculus",
+      "conceptId": "FMA73422",
+      "system": "nervous"
+    },
+    {
+      "index": 10,
+      "id": "FJ1831",
+      "name": "Medulla oblongata",
+      "conceptId": "FMA62004",
+      "system": "nervous"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "FMA37692",
+  "name": "Triceps Brachii",
+  "slug": "triceps_brachii",
+  "elementsCount": 2,
+  "triangles": 1122,
+  "vertexCount": 1008,
+  "system": "muscular",
+  "bounds": [
+    [
+      -0.21646200120449066,
+      -0.13275498151779175,
+      -0.022671299055218697
+    ],
+    [
+      0.21646200120449066,
+      0.13275498151779175,
+      0.022671299055218697
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.21646200120449066,
+      1.1133512258529663,
+      -0.08124049752950668
+    ],
+    [
+      0.21646200120449066,
+      1.3788611888885498,
+      -0.03589789941906929
+    ]
+  ],
+  "center": [
+    0,
+    1.246106207370758,
+    -0.05856919847428799
+  ],
+  "byteSize": 34284,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ1479",
+      "name": "Long head of right triceps brachii",
+      "conceptId": "FMA37699",
+      "system": "muscular"
+    },
+    {
+      "index": 1,
+      "id": "FJ1479M",
+      "name": "Long head of left triceps brachii",
+      "conceptId": "FMA37700",
+      "system": "muscular"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "FMA24485",
+  "name": "Patella",
+  "slug": "patella",
+  "elementsCount": 2,
+  "triangles": 608,
+  "vertexCount": 353,
+  "system": "skeletal",
+  "bounds": [
+    [
+      -0.10225600004196167,
+      -0.019655004143714905,
+      -0.0109249998931773
+    ],
+    [
+      0.10225600004196167,
+      0.019655004143714905,
+      0.0109249998931773
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.10228800028562546,
+      0.4395971894264221,
+      0.0009009999921545386
+    ],
+    [
+      0.10222399979829788,
+      0.47890719771385193,
+      0.02275099977850914
+    ]
+  ],
+  "center": [
+    -0.00003200024366378784,
+    0.459252193570137,
+    0.01182599988533184
+  ],
+  "byteSize": 14144,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ3275",
+      "name": "Left patella",
+      "conceptId": "FMA24487",
+      "system": "skeletal"
+    },
+    {
+      "index": 1,
+      "id": "FJ3381",
+      "name": "Right patella",
+      "conceptId": "FMA24486",
+      "system": "skeletal"
+    }
+  ]
+}

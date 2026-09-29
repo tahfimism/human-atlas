@@ -1,0 +1,57 @@
+{
+  "id": "FMA10951",
+  "name": "Inferior Vena Cava",
+  "slug": "inferior_vena_cava",
+  "elementsCount": 2,
+  "triangles": 746,
+  "vertexCount": 519,
+  "system": "venous",
+  "bounds": [
+    [
+      -0.01227257028222084,
+      -0.11975246667861938,
+      -0.012536500114947557
+    ],
+    [
+      0.01227257028222084,
+      0.11975246667861938,
+      0.012536500114947557
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.02669830061495304,
+      1.0291062593460083,
+      0.0035520000383257866
+    ],
+    [
+      -0.00215316005051136,
+      1.268611192703247,
+      0.0286250002682209
+    ]
+  ],
+  "center": [
+    -0.0144257303327322,
+    1.1488587260246277,
+    0.016088500153273344
+  ],
+  "byteSize": 19316,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ3441",
+      "name": "Inferior vena cava",
+      "conceptId": "FMA10951",
+      "system": "venous"
+    },
+    {
+      "index": 1,
+      "id": "FJ3659",
+      "name": "Inferior vena cava",
+      "conceptId": "FMA10951",
+      "system": "venous"
+    }
+  ]
+}

@@ -1,0 +1,2003 @@
+{
+  "id": "FMA7308",
+  "name": "Lungs",
+  "slug": "lungs",
+  "elementsCount": 280,
+  "triangles": 15000,
+  "vertexCount": 13070,
+  "system": "respiratory",
+  "bounds": [
+    [
+      -0.12098599970340729,
+      -0.17067497968673706,
+      -0.07877285033464432
+    ],
+    [
+      0.12098599970340729,
+      0.17067497968673706,
+      0.07877285033464432
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.11653999984264374,
+      1.0927011966705322,
+      -0.07967469841241837
+    ],
+    [
+      0.12543199956417084,
+      1.4340511560440063,
+      0.07787100225687027
+    ]
+  ],
+  "center": [
+    0.00444599986076355,
+    1.2633761763572693,
+    -0.0009018480777740479
+  ],
+  "byteSize": 431156,
+  "decimated": true,
+  "decimationError": 0.001619,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ2041",
+      "name": "Right anterior segmental artery",
+      "conceptId": "FMA8620",
+      "system": "arterial"
+    },
+    {
+      "index": 1,
+      "id": "FJ2044",
+      "name": "Right anterior segmental artery",
+      "conceptId": "FMA8620",
+      "system": "arterial"
+    },
+    {
+      "index": 2,
+      "id": "FJ2449",
+      "name": "Lateral segmental bronchial tree",
+      "conceptId": "FMA68215",
+      "system": "respiratory"
+    },
+    {
+      "index": 3,
+      "id": "FJ2451",
+      "name": "Medial segmental bronchial tree",
+      "conceptId": "FMA68214",
+      "system": "respiratory"
+    },
+    {
+      "index": 4,
+      "id": "FJ2452",
+      "name": "Right anterior basal segmental bronchial tree",
+      "conceptId": "FMA68321",
+      "system": "respiratory"
+    },
+    {
+      "index": 5,
+      "id": "FJ2453",
+      "name": "Right anterior segmental bronchial tree",
+      "conceptId": "FMA68212",
+      "system": "respiratory"
+    },
+    {
+      "index": 6,
+      "id": "FJ2454",
+      "name": "Right apical segmental bronchial tree",
+      "conceptId": "FMA68211",
+      "system": "respiratory"
+    },
+    {
+      "index": 7,
+      "id": "FJ2455",
+      "name": "Right lateral basal segmental bronchial tree",
+      "conceptId": "FMA68220",
+      "system": "respiratory"
+    },
+    {
+      "index": 8,
+      "id": "FJ2456",
+      "name": "Right medial basal segmental bronchial tree",
+      "conceptId": "FMA68218",
+      "system": "respiratory"
+    },
+    {
+      "index": 9,
+      "id": "FJ2457",
+      "name": "Right posterior basal segmental bronchial tree",
+      "conceptId": "FMA68221",
+      "system": "respiratory"
+    },
+    {
+      "index": 10,
+      "id": "FJ2458",
+      "name": "Right posterior segmental bronchial tree",
+      "conceptId": "FMA68213",
+      "system": "respiratory"
+    },
+    {
+      "index": 11,
+      "id": "FJ2459",
+      "name": "Right superior segmental bronchial tree",
+      "conceptId": "FMA68216",
+      "system": "respiratory"
+    },
+    {
+      "index": 12,
+      "id": "FJ2470",
+      "name": "Right posterior basal segmental bronchial tree",
+      "conceptId": "FMA68221",
+      "system": "respiratory"
+    },
+    {
+      "index": 13,
+      "id": "FJ2481",
+      "name": "Right posterior basal segmental bronchial tree",
+      "conceptId": "FMA68221",
+      "system": "respiratory"
+    },
+    {
+      "index": 14,
+      "id": "FJ2486",
+      "name": "Right posterior basal segmental bronchial tree",
+      "conceptId": "FMA68221",
+      "system": "respiratory"
+    },
+    {
+      "index": 15,
+      "id": "FJ2487",
+      "name": "Right posterior basal segmental bronchial tree",
+      "conceptId": "FMA68221",
+      "system": "respiratory"
+    },
+    {
+      "index": 16,
+      "id": "FJ2488",
+      "name": "Right medial basal segmental bronchial tree",
+      "conceptId": "FMA68218",
+      "system": "respiratory"
+    },
+    {
+      "index": 17,
+      "id": "FJ2489",
+      "name": "Right posterior basal segmental bronchial tree",
+      "conceptId": "FMA68221",
+      "system": "respiratory"
+    },
+    {
+      "index": 18,
+      "id": "FJ2490",
+      "name": "Right lateral basal segmental bronchial tree",
+      "conceptId": "FMA68220",
+      "system": "respiratory"
+    },
+    {
+      "index": 19,
+      "id": "FJ2491",
+      "name": "Right lateral basal segmental bronchial tree",
+      "conceptId": "FMA68220",
+      "system": "respiratory"
+    },
+    {
+      "index": 20,
+      "id": "FJ2492",
+      "name": "Right lateral basal segmental bronchial tree",
+      "conceptId": "FMA68220",
+      "system": "respiratory"
+    },
+    {
+      "index": 21,
+      "id": "FJ2493",
+      "name": "Right anterior basal segmental bronchial tree",
+      "conceptId": "FMA68321",
+      "system": "respiratory"
+    },
+    {
+      "index": 22,
+      "id": "FJ2494",
+      "name": "Right anterior basal segmental bronchial tree",
+      "conceptId": "FMA68321",
+      "system": "respiratory"
+    },
+    {
+      "index": 23,
+      "id": "FJ2495",
+      "name": "Right superior segmental bronchial tree",
+      "conceptId": "FMA68216",
+      "system": "respiratory"
+    },
+    {
+      "index": 24,
+      "id": "FJ2496",
+      "name": "Right superior segmental bronchial tree",
+      "conceptId": "FMA68216",
+      "system": "respiratory"
+    },
+    {
+      "index": 25,
+      "id": "FJ2497",
+      "name": "Right superior segmental bronchial tree",
+      "conceptId": "FMA68216",
+      "system": "respiratory"
+    },
+    {
+      "index": 26,
+      "id": "FJ2498",
+      "name": "Right superior segmental bronchial tree",
+      "conceptId": "FMA68216",
+      "system": "respiratory"
+    },
+    {
+      "index": 27,
+      "id": "FJ2499",
+      "name": "Right superior segmental bronchial tree",
+      "conceptId": "FMA68216",
+      "system": "respiratory"
+    },
+    {
+      "index": 28,
+      "id": "FJ2500",
+      "name": "Right superior segmental bronchial tree",
+      "conceptId": "FMA68216",
+      "system": "respiratory"
+    },
+    {
+      "index": 29,
+      "id": "FJ2501",
+      "name": "Right superior segmental bronchial tree",
+      "conceptId": "FMA68216",
+      "system": "respiratory"
+    },
+    {
+      "index": 30,
+      "id": "FJ2502",
+      "name": "Right superior segmental bronchial tree",
+      "conceptId": "FMA68216",
+      "system": "respiratory"
+    },
+    {
+      "index": 31,
+      "id": "FJ2503",
+      "name": "Lateral segmental bronchial tree",
+      "conceptId": "FMA68215",
+      "system": "respiratory"
+    },
+    {
+      "index": 32,
+      "id": "FJ2504",
+      "name": "Lateral segmental bronchial tree",
+      "conceptId": "FMA68215",
+      "system": "respiratory"
+    },
+    {
+      "index": 33,
+      "id": "FJ2505",
+      "name": "Lateral segmental bronchial tree",
+      "conceptId": "FMA68215",
+      "system": "respiratory"
+    },
+    {
+      "index": 34,
+      "id": "FJ2506",
+      "name": "Medial segmental bronchial tree",
+      "conceptId": "FMA68214",
+      "system": "respiratory"
+    },
+    {
+      "index": 35,
+      "id": "FJ2507",
+      "name": "Medial segmental bronchial tree",
+      "conceptId": "FMA68214",
+      "system": "respiratory"
+    },
+    {
+      "index": 36,
+      "id": "FJ2508",
+      "name": "Medial segmental bronchial tree",
+      "conceptId": "FMA68214",
+      "system": "respiratory"
+    },
+    {
+      "index": 37,
+      "id": "FJ2509",
+      "name": "Right anterior segmental bronchial tree",
+      "conceptId": "FMA68212",
+      "system": "respiratory"
+    },
+    {
+      "index": 38,
+      "id": "FJ2510",
+      "name": "Right anterior segmental bronchial tree",
+      "conceptId": "FMA68212",
+      "system": "respiratory"
+    },
+    {
+      "index": 39,
+      "id": "FJ2511",
+      "name": "Right anterior segmental bronchial tree",
+      "conceptId": "FMA68212",
+      "system": "respiratory"
+    },
+    {
+      "index": 40,
+      "id": "FJ2512",
+      "name": "Right anterior segmental bronchial tree",
+      "conceptId": "FMA68212",
+      "system": "respiratory"
+    },
+    {
+      "index": 41,
+      "id": "FJ2513",
+      "name": "Right anterior segmental bronchial tree",
+      "conceptId": "FMA68212",
+      "system": "respiratory"
+    },
+    {
+      "index": 42,
+      "id": "FJ2514",
+      "name": "Right anterior segmental bronchial tree",
+      "conceptId": "FMA68212",
+      "system": "respiratory"
+    },
+    {
+      "index": 43,
+      "id": "FJ2515",
+      "name": "Right posterior segmental bronchial tree",
+      "conceptId": "FMA68213",
+      "system": "respiratory"
+    },
+    {
+      "index": 44,
+      "id": "FJ2516",
+      "name": "Right posterior segmental bronchial tree",
+      "conceptId": "FMA68213",
+      "system": "respiratory"
+    },
+    {
+      "index": 45,
+      "id": "FJ2517",
+      "name": "Right posterior segmental bronchial tree",
+      "conceptId": "FMA68213",
+      "system": "respiratory"
+    },
+    {
+      "index": 46,
+      "id": "FJ2518",
+      "name": "Right posterior segmental bronchial tree",
+      "conceptId": "FMA68213",
+      "system": "respiratory"
+    },
+    {
+      "index": 47,
+      "id": "FJ2519",
+      "name": "Right posterior segmental bronchial tree",
+      "conceptId": "FMA68213",
+      "system": "respiratory"
+    },
+    {
+      "index": 48,
+      "id": "FJ2520",
+      "name": "Right apical segmental bronchial tree",
+      "conceptId": "FMA68211",
+      "system": "respiratory"
+    },
+    {
+      "index": 49,
+      "id": "FJ2521",
+      "name": "Right apical segmental bronchial tree",
+      "conceptId": "FMA68211",
+      "system": "respiratory"
+    },
+    {
+      "index": 50,
+      "id": "FJ2522",
+      "name": "Right apical segmental bronchial tree",
+      "conceptId": "FMA68211",
+      "system": "respiratory"
+    },
+    {
+      "index": 51,
+      "id": "FJ2523",
+      "name": "Right apical segmental bronchial tree",
+      "conceptId": "FMA68211",
+      "system": "respiratory"
+    },
+    {
+      "index": 52,
+      "id": "FJ2524",
+      "name": "Right apical segmental bronchial tree",
+      "conceptId": "FMA68211",
+      "system": "respiratory"
+    },
+    {
+      "index": 53,
+      "id": "FJ2525",
+      "name": "Right apical segmental bronchial tree",
+      "conceptId": "FMA68211",
+      "system": "respiratory"
+    },
+    {
+      "index": 54,
+      "id": "FJ2526",
+      "name": "Right apical segmental bronchial tree",
+      "conceptId": "FMA68211",
+      "system": "respiratory"
+    },
+    {
+      "index": 55,
+      "id": "FJ2967",
+      "name": "Apical part of right apical segmental artery",
+      "conceptId": "FMA68662",
+      "system": "arterial"
+    },
+    {
+      "index": 56,
+      "id": "FJ2968",
+      "name": "Apical part of right posterior segmental artery",
+      "conceptId": "FMA68670",
+      "system": "arterial"
+    },
+    {
+      "index": 57,
+      "id": "FJ2969",
+      "name": "Apical part of right posterior segmental artery",
+      "conceptId": "FMA68670",
+      "system": "arterial"
+    },
+    {
+      "index": 58,
+      "id": "FJ2970",
+      "name": "Posterior part of right posterior segmental artery",
+      "conceptId": "FMA68673",
+      "system": "arterial"
+    },
+    {
+      "index": 59,
+      "id": "FJ2971",
+      "name": "Posterior part of right posterior segmental artery",
+      "conceptId": "FMA68673",
+      "system": "arterial"
+    },
+    {
+      "index": 60,
+      "id": "FJ2972",
+      "name": "Posterior part of right posterior segmental artery",
+      "conceptId": "FMA68673",
+      "system": "arterial"
+    },
+    {
+      "index": 61,
+      "id": "FJ2973",
+      "name": "Right upper lobar artery",
+      "conceptId": "FMA68197",
+      "system": "arterial"
+    },
+    {
+      "index": 62,
+      "id": "FJ2974",
+      "name": "Posterior branch of right anterior segmental artery",
+      "conceptId": "FMA68677",
+      "system": "arterial"
+    },
+    {
+      "index": 63,
+      "id": "FJ2975",
+      "name": "Anterior branch of right anterior segmental artery",
+      "conceptId": "FMA68683",
+      "system": "arterial"
+    },
+    {
+      "index": 64,
+      "id": "FJ2976",
+      "name": "Anterior branch of right anterior segmental artery",
+      "conceptId": "FMA68683",
+      "system": "arterial"
+    },
+    {
+      "index": 65,
+      "id": "FJ2977",
+      "name": "Anterior branch of right anterior segmental artery",
+      "conceptId": "FMA68683",
+      "system": "arterial"
+    },
+    {
+      "index": 66,
+      "id": "FJ2978",
+      "name": "Anterior part of right apical segmental artery",
+      "conceptId": "FMA68665",
+      "system": "arterial"
+    },
+    {
+      "index": 67,
+      "id": "FJ2979",
+      "name": "Anterior branch of right anterior segmental artery",
+      "conceptId": "FMA68683",
+      "system": "arterial"
+    },
+    {
+      "index": 68,
+      "id": "FJ2980",
+      "name": "Posterior branch of right anterior segmental artery",
+      "conceptId": "FMA68677",
+      "system": "arterial"
+    },
+    {
+      "index": 69,
+      "id": "FJ2981",
+      "name": "Posterior branch of right anterior segmental artery",
+      "conceptId": "FMA68677",
+      "system": "arterial"
+    },
+    {
+      "index": 70,
+      "id": "FJ2982",
+      "name": "Anterior branch of lateral segmental artery",
+      "conceptId": "FMA68691",
+      "system": "arterial"
+    },
+    {
+      "index": 71,
+      "id": "FJ2983",
+      "name": "Posterior branch of lateral segmental artery",
+      "conceptId": "FMA68690",
+      "system": "arterial"
+    },
+    {
+      "index": 72,
+      "id": "FJ2984",
+      "name": "Posterior branch of lateral segmental artery",
+      "conceptId": "FMA68690",
+      "system": "arterial"
+    },
+    {
+      "index": 73,
+      "id": "FJ2985",
+      "name": "Anterior branch of lateral segmental artery",
+      "conceptId": "FMA68691",
+      "system": "arterial"
+    },
+    {
+      "index": 74,
+      "id": "FJ2986",
+      "name": "Superior branch of medial segmental artery",
+      "conceptId": "FMA68693",
+      "system": "arterial"
+    },
+    {
+      "index": 75,
+      "id": "FJ2987",
+      "name": "Inferior branch of medial segmental artery",
+      "conceptId": "FMA68694",
+      "system": "arterial"
+    },
+    {
+      "index": 76,
+      "id": "FJ2988",
+      "name": "Inferior branch of medial segmental artery",
+      "conceptId": "FMA68694",
+      "system": "arterial"
+    },
+    {
+      "index": 77,
+      "id": "FJ2989",
+      "name": "Anterior part of right apical segmental artery",
+      "conceptId": "FMA68665",
+      "system": "arterial"
+    },
+    {
+      "index": 78,
+      "id": "FJ2990",
+      "name": "Superior branch of medial segmental artery",
+      "conceptId": "FMA68693",
+      "system": "arterial"
+    },
+    {
+      "index": 79,
+      "id": "FJ2991",
+      "name": "Lateral branch of right superior segmental artery",
+      "conceptId": "FMA68712",
+      "system": "arterial"
+    },
+    {
+      "index": 80,
+      "id": "FJ2992",
+      "name": "Lateral branch of right superior segmental artery",
+      "conceptId": "FMA68712",
+      "system": "arterial"
+    },
+    {
+      "index": 81,
+      "id": "FJ2993",
+      "name": "Lateral branch of right superior segmental artery",
+      "conceptId": "FMA68712",
+      "system": "arterial"
+    },
+    {
+      "index": 82,
+      "id": "FJ2994",
+      "name": "Medial branch of right superior segmental artery",
+      "conceptId": "FMA68706",
+      "system": "arterial"
+    },
+    {
+      "index": 83,
+      "id": "FJ2995",
+      "name": "Medial branch of right superior segmental artery",
+      "conceptId": "FMA68706",
+      "system": "arterial"
+    },
+    {
+      "index": 84,
+      "id": "FJ2996",
+      "name": "Medial branch of right superior segmental artery",
+      "conceptId": "FMA68706",
+      "system": "arterial"
+    },
+    {
+      "index": 85,
+      "id": "FJ2997",
+      "name": "Superior branch of right superior segmental artery",
+      "conceptId": "FMA68709",
+      "system": "arterial"
+    },
+    {
+      "index": 86,
+      "id": "FJ2998",
+      "name": "Superior branch of right superior segmental artery",
+      "conceptId": "FMA68709",
+      "system": "arterial"
+    },
+    {
+      "index": 87,
+      "id": "FJ2999",
+      "name": "Superior branch of right superior segmental artery",
+      "conceptId": "FMA68709",
+      "system": "arterial"
+    },
+    {
+      "index": 88,
+      "id": "FJ3000",
+      "name": "Anterior part of right apical segmental artery",
+      "conceptId": "FMA68665",
+      "system": "arterial"
+    },
+    {
+      "index": 89,
+      "id": "FJ3001",
+      "name": "Lateral branch of right anterior basal segmental artery",
+      "conceptId": "FMA68725",
+      "system": "arterial"
+    },
+    {
+      "index": 90,
+      "id": "FJ3002",
+      "name": "Basal branch of right anterior basal segmental artery",
+      "conceptId": "FMA68723",
+      "system": "arterial"
+    },
+    {
+      "index": 91,
+      "id": "FJ3003",
+      "name": "Basal branch of right anterior basal segmental artery",
+      "conceptId": "FMA68723",
+      "system": "arterial"
+    },
+    {
+      "index": 92,
+      "id": "FJ3004",
+      "name": "Lateral branch of right lateral basal segmental artery",
+      "conceptId": "FMA68728",
+      "system": "arterial"
+    },
+    {
+      "index": 93,
+      "id": "FJ3005",
+      "name": "Lateral branch of right lateral basal segmental artery",
+      "conceptId": "FMA68728",
+      "system": "arterial"
+    },
+    {
+      "index": 94,
+      "id": "FJ3006",
+      "name": "Lateral branch of right lateral basal segmental artery",
+      "conceptId": "FMA68728",
+      "system": "arterial"
+    },
+    {
+      "index": 95,
+      "id": "FJ3007",
+      "name": "Lateral branch of right lateral basal segmental artery",
+      "conceptId": "FMA68728",
+      "system": "arterial"
+    },
+    {
+      "index": 96,
+      "id": "FJ3008",
+      "name": "Mediobasal branch of right posterior basal segmental artery",
+      "conceptId": "FMA68741",
+      "system": "arterial"
+    },
+    {
+      "index": 97,
+      "id": "FJ3009",
+      "name": "Accessory subsuperior branch of right posterior basal segmental artery",
+      "conceptId": "FMA68735",
+      "system": "arterial"
+    },
+    {
+      "index": 98,
+      "id": "FJ3010",
+      "name": "Accessory subsuperior branch of right posterior basal segmental artery",
+      "conceptId": "FMA68735",
+      "system": "arterial"
+    },
+    {
+      "index": 99,
+      "id": "FJ3011",
+      "name": "Anterior part of right apical segmental artery",
+      "conceptId": "FMA68665",
+      "system": "arterial"
+    },
+    {
+      "index": 100,
+      "id": "FJ3012",
+      "name": "Mediobasal branch of right posterior basal segmental artery",
+      "conceptId": "FMA68741",
+      "system": "arterial"
+    },
+    {
+      "index": 101,
+      "id": "FJ3013",
+      "name": "Laterobasal branch of right posterior basal segmental artery",
+      "conceptId": "FMA68738",
+      "system": "arterial"
+    },
+    {
+      "index": 102,
+      "id": "FJ3014",
+      "name": "Laterobasal branch of right posterior basal segmental artery",
+      "conceptId": "FMA68738",
+      "system": "arterial"
+    },
+    {
+      "index": 103,
+      "id": "FJ3015",
+      "name": "Apical part of right apical segmental artery",
+      "conceptId": "FMA68662",
+      "system": "arterial"
+    },
+    {
+      "index": 104,
+      "id": "FJ3016",
+      "name": "Apical part of right apical segmental artery",
+      "conceptId": "FMA68662",
+      "system": "arterial"
+    },
+    {
+      "index": 105,
+      "id": "FJ3017",
+      "name": "Apical part of right apical segmental artery",
+      "conceptId": "FMA68662",
+      "system": "arterial"
+    },
+    {
+      "index": 106,
+      "id": "FJ3018",
+      "name": "Apical part of right posterior segmental artery",
+      "conceptId": "FMA68670",
+      "system": "arterial"
+    },
+    {
+      "index": 107,
+      "id": "FJ3021",
+      "name": "Inferior part of right anterior segmental vein",
+      "conceptId": "FMA68928",
+      "system": "venous"
+    },
+    {
+      "index": 108,
+      "id": "FJ3022",
+      "name": "Right posterior segmental vein",
+      "conceptId": "FMA8663",
+      "system": "venous"
+    },
+    {
+      "index": 109,
+      "id": "FJ3023",
+      "name": "Right posterior segmental vein",
+      "conceptId": "FMA8663",
+      "system": "venous"
+    },
+    {
+      "index": 110,
+      "id": "FJ3024",
+      "name": "Right posterior segmental vein",
+      "conceptId": "FMA8663",
+      "system": "venous"
+    },
+    {
+      "index": 111,
+      "id": "FJ3025",
+      "name": "Right posterior segmental vein",
+      "conceptId": "FMA8663",
+      "system": "venous"
+    },
+    {
+      "index": 112,
+      "id": "FJ3026",
+      "name": "Right posterior segmental vein",
+      "conceptId": "FMA8663",
+      "system": "venous"
+    },
+    {
+      "index": 113,
+      "id": "FJ3027",
+      "name": "Superior part of right anterior segmental vein",
+      "conceptId": "FMA68926",
+      "system": "venous"
+    },
+    {
+      "index": 114,
+      "id": "FJ3028",
+      "name": "Right anterior segmental vein",
+      "conceptId": "FMA8662",
+      "system": "venous"
+    },
+    {
+      "index": 115,
+      "id": "FJ3029",
+      "name": "Right anterior segmental vein",
+      "conceptId": "FMA8662",
+      "system": "venous"
+    },
+    {
+      "index": 116,
+      "id": "FJ3030",
+      "name": "Superior part of medial segmental vein",
+      "conceptId": "FMA68982",
+      "system": "venous"
+    },
+    {
+      "index": 117,
+      "id": "FJ3031",
+      "name": "Trunk of right apical segmental vein",
+      "conceptId": "FMA68880",
+      "system": "venous"
+    },
+    {
+      "index": 118,
+      "id": "FJ3032",
+      "name": "Inferior part of medial segmental vein",
+      "conceptId": "FMA68983",
+      "system": "venous"
+    },
+    {
+      "index": 119,
+      "id": "FJ3033",
+      "name": "Inferior part of medial segmental vein",
+      "conceptId": "FMA68983",
+      "system": "venous"
+    },
+    {
+      "index": 120,
+      "id": "FJ3034",
+      "name": "Anterior part of lateral segmental vein",
+      "conceptId": "FMA68945",
+      "system": "venous"
+    },
+    {
+      "index": 121,
+      "id": "FJ3035",
+      "name": "Anterior part of lateral segmental vein",
+      "conceptId": "FMA68945",
+      "system": "venous"
+    },
+    {
+      "index": 122,
+      "id": "FJ3036",
+      "name": "Anterior part of lateral segmental vein",
+      "conceptId": "FMA68945",
+      "system": "venous"
+    },
+    {
+      "index": 123,
+      "id": "FJ3037",
+      "name": "Posterior part of lateral segmental vein",
+      "conceptId": "FMA68944",
+      "system": "venous"
+    },
+    {
+      "index": 124,
+      "id": "FJ3038",
+      "name": "Posterior part of lateral segmental vein",
+      "conceptId": "FMA68944",
+      "system": "venous"
+    },
+    {
+      "index": 125,
+      "id": "FJ3039",
+      "name": "Posterior part of lateral segmental vein",
+      "conceptId": "FMA68944",
+      "system": "venous"
+    },
+    {
+      "index": 126,
+      "id": "FJ3041",
+      "name": "Right posterior basal segmental vein",
+      "conceptId": "FMA9428",
+      "system": "venous"
+    },
+    {
+      "index": 127,
+      "id": "FJ3042",
+      "name": "Anterior part of right apical segmental vein",
+      "conceptId": "FMA68921",
+      "system": "venous"
+    },
+    {
+      "index": 128,
+      "id": "FJ3043",
+      "name": "Right posterior basal segmental vein",
+      "conceptId": "FMA9428",
+      "system": "venous"
+    },
+    {
+      "index": 129,
+      "id": "FJ3044",
+      "name": "Right posterior basal segmental vein",
+      "conceptId": "FMA9428",
+      "system": "venous"
+    },
+    {
+      "index": 130,
+      "id": "FJ3045",
+      "name": "Right posterior basal segmental vein",
+      "conceptId": "FMA9428",
+      "system": "venous"
+    },
+    {
+      "index": 131,
+      "id": "FJ3046",
+      "name": "Right posterior basal segmental vein",
+      "conceptId": "FMA9428",
+      "system": "venous"
+    },
+    {
+      "index": 132,
+      "id": "FJ3047",
+      "name": "Right posterior basal segmental vein",
+      "conceptId": "FMA9428",
+      "system": "venous"
+    },
+    {
+      "index": 133,
+      "id": "FJ3048",
+      "name": "Right posterior basal segmental vein",
+      "conceptId": "FMA9428",
+      "system": "venous"
+    },
+    {
+      "index": 134,
+      "id": "FJ3049",
+      "name": "Right anterior basal segmental vein",
+      "conceptId": "FMA8673",
+      "system": "venous"
+    },
+    {
+      "index": 135,
+      "id": "FJ3050",
+      "name": "Right superior segmental vein",
+      "conceptId": "FMA8670",
+      "system": "venous"
+    },
+    {
+      "index": 136,
+      "id": "FJ3051",
+      "name": "Right superior segmental vein",
+      "conceptId": "FMA8670",
+      "system": "venous"
+    },
+    {
+      "index": 137,
+      "id": "FJ3052",
+      "name": "Right superior segmental vein",
+      "conceptId": "FMA8670",
+      "system": "venous"
+    },
+    {
+      "index": 138,
+      "id": "FJ3053",
+      "name": "Anterior part of right apical segmental vein",
+      "conceptId": "FMA68921",
+      "system": "venous"
+    },
+    {
+      "index": 139,
+      "id": "FJ3054",
+      "name": "Right medial basal segmental vein",
+      "conceptId": "FMA9422",
+      "system": "venous"
+    },
+    {
+      "index": 140,
+      "id": "FJ3055",
+      "name": "Right medial basal segmental vein",
+      "conceptId": "FMA9422",
+      "system": "venous"
+    },
+    {
+      "index": 141,
+      "id": "FJ3056",
+      "name": "Right anterior basal segmental vein",
+      "conceptId": "FMA8673",
+      "system": "venous"
+    },
+    {
+      "index": 142,
+      "id": "FJ3057",
+      "name": "Right posterior basal segmental vein",
+      "conceptId": "FMA9428",
+      "system": "venous"
+    },
+    {
+      "index": 143,
+      "id": "FJ3058",
+      "name": "Right posterior basal segmental vein",
+      "conceptId": "FMA9428",
+      "system": "venous"
+    },
+    {
+      "index": 144,
+      "id": "FJ3059",
+      "name": "Right lateral basal segmental vein",
+      "conceptId": "FMA9425",
+      "system": "venous"
+    },
+    {
+      "index": 145,
+      "id": "FJ3060",
+      "name": "Right lateral basal segmental vein",
+      "conceptId": "FMA9425",
+      "system": "venous"
+    },
+    {
+      "index": 146,
+      "id": "FJ3061",
+      "name": "Right lateral basal segmental vein",
+      "conceptId": "FMA9425",
+      "system": "venous"
+    },
+    {
+      "index": 147,
+      "id": "FJ3062",
+      "name": "Right lateral basal segmental vein",
+      "conceptId": "FMA9425",
+      "system": "venous"
+    },
+    {
+      "index": 148,
+      "id": "FJ3063",
+      "name": "Right superior segmental vein",
+      "conceptId": "FMA8670",
+      "system": "venous"
+    },
+    {
+      "index": 149,
+      "id": "FJ3064",
+      "name": "Apical part of right apical segmental vein",
+      "conceptId": "FMA8681",
+      "system": "venous"
+    },
+    {
+      "index": 150,
+      "id": "FJ3065",
+      "name": "Right superior segmental vein",
+      "conceptId": "FMA8670",
+      "system": "venous"
+    },
+    {
+      "index": 151,
+      "id": "FJ3066",
+      "name": "Right superior segmental vein",
+      "conceptId": "FMA8670",
+      "system": "venous"
+    },
+    {
+      "index": 152,
+      "id": "FJ3067",
+      "name": "Apical part of right apical segmental vein",
+      "conceptId": "FMA8681",
+      "system": "venous"
+    },
+    {
+      "index": 153,
+      "id": "FJ3068",
+      "name": "Apical part of right apical segmental vein",
+      "conceptId": "FMA8681",
+      "system": "venous"
+    },
+    {
+      "index": 154,
+      "id": "FJ3069",
+      "name": "Right posterior segmental vein",
+      "conceptId": "FMA8663",
+      "system": "venous"
+    },
+    {
+      "index": 155,
+      "id": "FJ3070",
+      "name": "Right posterior segmental vein",
+      "conceptId": "FMA8663",
+      "system": "venous"
+    },
+    {
+      "index": 156,
+      "id": "FJ2441",
+      "name": "Inferior lingular bronchial tree",
+      "conceptId": "FMA68227",
+      "system": "respiratory"
+    },
+    {
+      "index": 157,
+      "id": "FJ2442",
+      "name": "Left medial basal segmental bronchial tree",
+      "conceptId": "FMA68230",
+      "system": "respiratory"
+    },
+    {
+      "index": 158,
+      "id": "FJ2443",
+      "name": "Left anterior segmental bronchial tree",
+      "conceptId": "FMA68222",
+      "system": "respiratory"
+    },
+    {
+      "index": 159,
+      "id": "FJ2444",
+      "name": "Left apical segmental bronchial tree",
+      "conceptId": "FMA68223",
+      "system": "respiratory"
+    },
+    {
+      "index": 160,
+      "id": "FJ2445",
+      "name": "Left lateral basal segmental bronchial tree",
+      "conceptId": "FMA68232",
+      "system": "respiratory"
+    },
+    {
+      "index": 161,
+      "id": "FJ2446",
+      "name": "Left posterior basal segmental bronchial tree",
+      "conceptId": "FMA68233",
+      "system": "respiratory"
+    },
+    {
+      "index": 162,
+      "id": "FJ2447",
+      "name": "Left posterior segmental bronchial tree",
+      "conceptId": "FMA68225",
+      "system": "respiratory"
+    },
+    {
+      "index": 163,
+      "id": "FJ2448",
+      "name": "Left superior segmental bronchial tree",
+      "conceptId": "FMA68228",
+      "system": "respiratory"
+    },
+    {
+      "index": 164,
+      "id": "FJ2460",
+      "name": "Left apical segmental bronchial tree",
+      "conceptId": "FMA68223",
+      "system": "respiratory"
+    },
+    {
+      "index": 165,
+      "id": "FJ2461",
+      "name": "Left apical segmental bronchial tree",
+      "conceptId": "FMA68223",
+      "system": "respiratory"
+    },
+    {
+      "index": 166,
+      "id": "FJ2462",
+      "name": "Left apical segmental bronchial tree",
+      "conceptId": "FMA68223",
+      "system": "respiratory"
+    },
+    {
+      "index": 167,
+      "id": "FJ2463",
+      "name": "Left apical segmental bronchial tree",
+      "conceptId": "FMA68223",
+      "system": "respiratory"
+    },
+    {
+      "index": 168,
+      "id": "FJ2464",
+      "name": "Left apical segmental bronchial tree",
+      "conceptId": "FMA68223",
+      "system": "respiratory"
+    },
+    {
+      "index": 169,
+      "id": "FJ2465",
+      "name": "Left posterior segmental bronchial tree",
+      "conceptId": "FMA68225",
+      "system": "respiratory"
+    },
+    {
+      "index": 170,
+      "id": "FJ2466",
+      "name": "Left posterior segmental bronchial tree",
+      "conceptId": "FMA68225",
+      "system": "respiratory"
+    },
+    {
+      "index": 171,
+      "id": "FJ2467",
+      "name": "Left anterior segmental bronchial tree",
+      "conceptId": "FMA68222",
+      "system": "respiratory"
+    },
+    {
+      "index": 172,
+      "id": "FJ2468",
+      "name": "Left anterior segmental bronchial tree",
+      "conceptId": "FMA68222",
+      "system": "respiratory"
+    },
+    {
+      "index": 173,
+      "id": "FJ2469",
+      "name": "Left anterior segmental bronchial tree",
+      "conceptId": "FMA68222",
+      "system": "respiratory"
+    },
+    {
+      "index": 174,
+      "id": "FJ2471",
+      "name": "Left anterior segmental bronchial tree",
+      "conceptId": "FMA68222",
+      "system": "respiratory"
+    },
+    {
+      "index": 175,
+      "id": "FJ2472",
+      "name": "Left anterior segmental bronchial tree",
+      "conceptId": "FMA68222",
+      "system": "respiratory"
+    },
+    {
+      "index": 176,
+      "id": "FJ2473",
+      "name": "Left anterior segmental bronchial tree",
+      "conceptId": "FMA68222",
+      "system": "respiratory"
+    },
+    {
+      "index": 177,
+      "id": "FJ2474",
+      "name": "Left anterior segmental bronchial tree",
+      "conceptId": "FMA68222",
+      "system": "respiratory"
+    },
+    {
+      "index": 178,
+      "id": "FJ2475",
+      "name": "Inferior lingular bronchial tree",
+      "conceptId": "FMA68227",
+      "system": "respiratory"
+    },
+    {
+      "index": 179,
+      "id": "FJ2476",
+      "name": "Superior lingular bronchial tree",
+      "conceptId": "FMA68226",
+      "system": "respiratory"
+    },
+    {
+      "index": 180,
+      "id": "FJ2477",
+      "name": "Superior lingular bronchial tree",
+      "conceptId": "FMA68226",
+      "system": "respiratory"
+    },
+    {
+      "index": 181,
+      "id": "FJ2478",
+      "name": "Superior lingular bronchial tree",
+      "conceptId": "FMA68226",
+      "system": "respiratory"
+    },
+    {
+      "index": 182,
+      "id": "FJ2479",
+      "name": "Left superior segmental bronchial tree",
+      "conceptId": "FMA68228",
+      "system": "respiratory"
+    },
+    {
+      "index": 183,
+      "id": "FJ2480",
+      "name": "Left superior segmental bronchial tree",
+      "conceptId": "FMA68228",
+      "system": "respiratory"
+    },
+    {
+      "index": 184,
+      "id": "FJ2482",
+      "name": "Left superior segmental bronchial tree",
+      "conceptId": "FMA68228",
+      "system": "respiratory"
+    },
+    {
+      "index": 185,
+      "id": "FJ2483",
+      "name": "Left superior segmental bronchial tree",
+      "conceptId": "FMA68228",
+      "system": "respiratory"
+    },
+    {
+      "index": 186,
+      "id": "FJ2484",
+      "name": "Left superior segmental bronchial tree",
+      "conceptId": "FMA68228",
+      "system": "respiratory"
+    },
+    {
+      "index": 187,
+      "id": "FJ2485",
+      "name": "Left superior segmental bronchial tree",
+      "conceptId": "FMA68228",
+      "system": "respiratory"
+    },
+    {
+      "index": 188,
+      "id": "FJ2527",
+      "name": "Left posterior basal segmental bronchial tree",
+      "conceptId": "FMA68233",
+      "system": "respiratory"
+    },
+    {
+      "index": 189,
+      "id": "FJ2528",
+      "name": "Left posterior basal segmental bronchial tree",
+      "conceptId": "FMA68233",
+      "system": "respiratory"
+    },
+    {
+      "index": 190,
+      "id": "FJ2529",
+      "name": "Left posterior basal segmental bronchial tree",
+      "conceptId": "FMA68233",
+      "system": "respiratory"
+    },
+    {
+      "index": 191,
+      "id": "FJ2530",
+      "name": "Left posterior basal segmental bronchial tree",
+      "conceptId": "FMA68233",
+      "system": "respiratory"
+    },
+    {
+      "index": 192,
+      "id": "FJ2531",
+      "name": "Left posterior basal segmental bronchial tree",
+      "conceptId": "FMA68233",
+      "system": "respiratory"
+    },
+    {
+      "index": 193,
+      "id": "FJ2532",
+      "name": "Left lateral basal segmental bronchial tree",
+      "conceptId": "FMA68232",
+      "system": "respiratory"
+    },
+    {
+      "index": 194,
+      "id": "FJ2533",
+      "name": "Left lateral basal segmental bronchial tree",
+      "conceptId": "FMA68232",
+      "system": "respiratory"
+    },
+    {
+      "index": 195,
+      "id": "FJ2534",
+      "name": "Left lateral basal segmental bronchial tree",
+      "conceptId": "FMA68232",
+      "system": "respiratory"
+    },
+    {
+      "index": 196,
+      "id": "FJ2535",
+      "name": "Left anterior basal segmental bronchial tree",
+      "conceptId": "FMA68231",
+      "system": "respiratory"
+    },
+    {
+      "index": 197,
+      "id": "FJ2536",
+      "name": "Left anterior basal segmental bronchial tree",
+      "conceptId": "FMA68231",
+      "system": "respiratory"
+    },
+    {
+      "index": 198,
+      "id": "FJ2537",
+      "name": "Left medial basal segmental bronchial tree",
+      "conceptId": "FMA68230",
+      "system": "respiratory"
+    },
+    {
+      "index": 199,
+      "id": "FJ2538",
+      "name": "Left anterior basal segmental bronchial tree",
+      "conceptId": "FMA68231",
+      "system": "respiratory"
+    },
+    {
+      "index": 200,
+      "id": "FJ2540",
+      "name": "Superior lingular bronchial tree",
+      "conceptId": "FMA68226",
+      "system": "respiratory"
+    },
+    {
+      "index": 201,
+      "id": "FJ2881",
+      "name": "Left posterior basal segmental artery",
+      "conceptId": "FMA8647",
+      "system": "arterial"
+    },
+    {
+      "index": 202,
+      "id": "FJ2882",
+      "name": "Left lateral basal segmental artery",
+      "conceptId": "FMA8646",
+      "system": "arterial"
+    },
+    {
+      "index": 203,
+      "id": "FJ2883",
+      "name": "Left anterior basal segmental artery",
+      "conceptId": "FMA8645",
+      "system": "arterial"
+    },
+    {
+      "index": 204,
+      "id": "FJ2884",
+      "name": "Left medial basal segmental artery",
+      "conceptId": "FMA8644",
+      "system": "arterial"
+    },
+    {
+      "index": 205,
+      "id": "FJ2885",
+      "name": "Left medial basal segmental artery",
+      "conceptId": "FMA8644",
+      "system": "arterial"
+    },
+    {
+      "index": 206,
+      "id": "FJ2886",
+      "name": "Left anterior basal segmental artery",
+      "conceptId": "FMA8645",
+      "system": "arterial"
+    },
+    {
+      "index": 207,
+      "id": "FJ2887",
+      "name": "Left anterior basal segmental artery",
+      "conceptId": "FMA8645",
+      "system": "arterial"
+    },
+    {
+      "index": 208,
+      "id": "FJ2888",
+      "name": "Left superior segmental artery",
+      "conceptId": "FMA8642",
+      "system": "arterial"
+    },
+    {
+      "index": 209,
+      "id": "FJ2889",
+      "name": "Left superior segmental artery",
+      "conceptId": "FMA8642",
+      "system": "arterial"
+    },
+    {
+      "index": 210,
+      "id": "FJ2890",
+      "name": "Left superior segmental artery",
+      "conceptId": "FMA8642",
+      "system": "arterial"
+    },
+    {
+      "index": 211,
+      "id": "FJ2891",
+      "name": "Left superior segmental artery",
+      "conceptId": "FMA8642",
+      "system": "arterial"
+    },
+    {
+      "index": 212,
+      "id": "FJ2892",
+      "name": "Left posterior basal segmental artery",
+      "conceptId": "FMA8647",
+      "system": "arterial"
+    },
+    {
+      "index": 213,
+      "id": "FJ2893",
+      "name": "Left superior segmental artery",
+      "conceptId": "FMA8642",
+      "system": "arterial"
+    },
+    {
+      "index": 214,
+      "id": "FJ2894",
+      "name": "Left superior segmental artery",
+      "conceptId": "FMA8642",
+      "system": "arterial"
+    },
+    {
+      "index": 215,
+      "id": "FJ2895",
+      "name": "Left superior segmental artery",
+      "conceptId": "FMA8642",
+      "system": "arterial"
+    },
+    {
+      "index": 216,
+      "id": "FJ2896",
+      "name": "Inferior lingular artery",
+      "conceptId": "FMA8640",
+      "system": "arterial"
+    },
+    {
+      "index": 217,
+      "id": "FJ2897",
+      "name": "Inferior lingular artery",
+      "conceptId": "FMA8640",
+      "system": "arterial"
+    },
+    {
+      "index": 218,
+      "id": "FJ2898",
+      "name": "Superior lingular artery",
+      "conceptId": "FMA8639",
+      "system": "arterial"
+    },
+    {
+      "index": 219,
+      "id": "FJ2899",
+      "name": "Superior lingular artery",
+      "conceptId": "FMA8639",
+      "system": "arterial"
+    },
+    {
+      "index": 220,
+      "id": "FJ2900",
+      "name": "Superior lingular artery",
+      "conceptId": "FMA8639",
+      "system": "arterial"
+    },
+    {
+      "index": 221,
+      "id": "FJ2901",
+      "name": "Superior lingular artery",
+      "conceptId": "FMA8639",
+      "system": "arterial"
+    },
+    {
+      "index": 222,
+      "id": "FJ2902",
+      "name": "Left anterior segmental artery",
+      "conceptId": "FMA13279",
+      "system": "arterial"
+    },
+    {
+      "index": 223,
+      "id": "FJ2903",
+      "name": "Left posterior basal segmental artery",
+      "conceptId": "FMA8647",
+      "system": "arterial"
+    },
+    {
+      "index": 224,
+      "id": "FJ2904",
+      "name": "Left anterior segmental artery",
+      "conceptId": "FMA13279",
+      "system": "arterial"
+    },
+    {
+      "index": 225,
+      "id": "FJ2905",
+      "name": "Left anterior segmental artery",
+      "conceptId": "FMA13279",
+      "system": "arterial"
+    },
+    {
+      "index": 226,
+      "id": "FJ2906",
+      "name": "Left anterior segmental artery",
+      "conceptId": "FMA13279",
+      "system": "arterial"
+    },
+    {
+      "index": 227,
+      "id": "FJ2907",
+      "name": "Left anterior segmental artery",
+      "conceptId": "FMA13279",
+      "system": "arterial"
+    },
+    {
+      "index": 228,
+      "id": "FJ2908",
+      "name": "Left anterior segmental artery",
+      "conceptId": "FMA13279",
+      "system": "arterial"
+    },
+    {
+      "index": 229,
+      "id": "FJ2909",
+      "name": "Left anterior segmental artery",
+      "conceptId": "FMA13279",
+      "system": "arterial"
+    },
+    {
+      "index": 230,
+      "id": "FJ2910",
+      "name": "Left anterior segmental artery",
+      "conceptId": "FMA13279",
+      "system": "arterial"
+    },
+    {
+      "index": 231,
+      "id": "FJ2911",
+      "name": "Left posterior segmental artery",
+      "conceptId": "FMA8635",
+      "system": "arterial"
+    },
+    {
+      "index": 232,
+      "id": "FJ2912",
+      "name": "Left posterior segmental artery",
+      "conceptId": "FMA8635",
+      "system": "arterial"
+    },
+    {
+      "index": 233,
+      "id": "FJ2913",
+      "name": "Left posterior segmental artery",
+      "conceptId": "FMA8635",
+      "system": "arterial"
+    },
+    {
+      "index": 234,
+      "id": "FJ2914",
+      "name": "Left posterior basal segmental artery",
+      "conceptId": "FMA8647",
+      "system": "arterial"
+    },
+    {
+      "index": 235,
+      "id": "FJ2915",
+      "name": "Left apical segmental artery",
+      "conceptId": "FMA8634",
+      "system": "arterial"
+    },
+    {
+      "index": 236,
+      "id": "FJ2916",
+      "name": "Left apical segmental artery",
+      "conceptId": "FMA8634",
+      "system": "arterial"
+    },
+    {
+      "index": 237,
+      "id": "FJ2917",
+      "name": "Left apical segmental artery",
+      "conceptId": "FMA8634",
+      "system": "arterial"
+    },
+    {
+      "index": 238,
+      "id": "FJ2918",
+      "name": "Left apical segmental artery",
+      "conceptId": "FMA8634",
+      "system": "arterial"
+    },
+    {
+      "index": 239,
+      "id": "FJ2919",
+      "name": "Left posterior basal segmental artery",
+      "conceptId": "FMA8647",
+      "system": "arterial"
+    },
+    {
+      "index": 240,
+      "id": "FJ2920",
+      "name": "Left posterior basal segmental artery",
+      "conceptId": "FMA8647",
+      "system": "arterial"
+    },
+    {
+      "index": 241,
+      "id": "FJ2921",
+      "name": "Left lateral basal segmental artery",
+      "conceptId": "FMA8646",
+      "system": "arterial"
+    },
+    {
+      "index": 242,
+      "id": "FJ2922",
+      "name": "Left lateral basal segmental artery",
+      "conceptId": "FMA8646",
+      "system": "arterial"
+    },
+    {
+      "index": 243,
+      "id": "FJ2923",
+      "name": "Left lateral basal segmental artery",
+      "conceptId": "FMA8646",
+      "system": "arterial"
+    },
+    {
+      "index": 244,
+      "id": "FJ2926",
+      "name": "Left posterior segmental vein",
+      "conceptId": "FMA9438",
+      "system": "venous"
+    },
+    {
+      "index": 245,
+      "id": "FJ2927",
+      "name": "Left posterior segmental vein",
+      "conceptId": "FMA9438",
+      "system": "venous"
+    },
+    {
+      "index": 246,
+      "id": "FJ2928",
+      "name": "Left posterior segmental vein",
+      "conceptId": "FMA9438",
+      "system": "venous"
+    },
+    {
+      "index": 247,
+      "id": "FJ2929",
+      "name": "Left posterior segmental vein",
+      "conceptId": "FMA9438",
+      "system": "venous"
+    },
+    {
+      "index": 248,
+      "id": "FJ2930",
+      "name": "Left anterior segmental vein",
+      "conceptId": "FMA8667",
+      "system": "venous"
+    },
+    {
+      "index": 249,
+      "id": "FJ2931",
+      "name": "Left anterior segmental vein",
+      "conceptId": "FMA8667",
+      "system": "venous"
+    },
+    {
+      "index": 250,
+      "id": "FJ2932",
+      "name": "Left anterior segmental vein",
+      "conceptId": "FMA8667",
+      "system": "venous"
+    },
+    {
+      "index": 251,
+      "id": "FJ2934",
+      "name": "Inferior lingular vein",
+      "conceptId": "FMA8669",
+      "system": "venous"
+    },
+    {
+      "index": 252,
+      "id": "FJ2935",
+      "name": "Inferior lingular vein",
+      "conceptId": "FMA8669",
+      "system": "venous"
+    },
+    {
+      "index": 253,
+      "id": "FJ2936",
+      "name": "Left apical segmental vein",
+      "conceptId": "FMA9437",
+      "system": "venous"
+    },
+    {
+      "index": 254,
+      "id": "FJ2937",
+      "name": "Superior lingular vein",
+      "conceptId": "FMA8668",
+      "system": "venous"
+    },
+    {
+      "index": 255,
+      "id": "FJ2938",
+      "name": "Superior lingular vein",
+      "conceptId": "FMA8668",
+      "system": "venous"
+    },
+    {
+      "index": 256,
+      "id": "FJ2939",
+      "name": "Left posterior segmental vein",
+      "conceptId": "FMA9438",
+      "system": "venous"
+    },
+    {
+      "index": 257,
+      "id": "FJ2940",
+      "name": "Left posterior segmental vein",
+      "conceptId": "FMA9438",
+      "system": "venous"
+    },
+    {
+      "index": 258,
+      "id": "FJ2941",
+      "name": "Left posterior segmental vein",
+      "conceptId": "FMA9438",
+      "system": "venous"
+    },
+    {
+      "index": 259,
+      "id": "FJ2942",
+      "name": "Left posterior segmental vein",
+      "conceptId": "FMA9438",
+      "system": "venous"
+    },
+    {
+      "index": 260,
+      "id": "FJ2943",
+      "name": "Left posterior segmental vein",
+      "conceptId": "FMA9438",
+      "system": "venous"
+    },
+    {
+      "index": 261,
+      "id": "FJ2945",
+      "name": "Left posterior basal segmental vein",
+      "conceptId": "FMA9451",
+      "system": "venous"
+    },
+    {
+      "index": 262,
+      "id": "FJ2946",
+      "name": "Left posterior basal segmental vein",
+      "conceptId": "FMA9451",
+      "system": "venous"
+    },
+    {
+      "index": 263,
+      "id": "FJ2947",
+      "name": "Left apical segmental vein",
+      "conceptId": "FMA9437",
+      "system": "venous"
+    },
+    {
+      "index": 264,
+      "id": "FJ2948",
+      "name": "Left posterior basal segmental vein",
+      "conceptId": "FMA9451",
+      "system": "venous"
+    },
+    {
+      "index": 265,
+      "id": "FJ2949",
+      "name": "Left posterior basal segmental vein",
+      "conceptId": "FMA9451",
+      "system": "venous"
+    },
+    {
+      "index": 266,
+      "id": "FJ2951",
+      "name": "Left lateral basal segmental vein",
+      "conceptId": "FMA9450",
+      "system": "venous"
+    },
+    {
+      "index": 267,
+      "id": "FJ2952",
+      "name": "Left lateral basal segmental vein",
+      "conceptId": "FMA9450",
+      "system": "venous"
+    },
+    {
+      "index": 268,
+      "id": "FJ2953",
+      "name": "Left lateral basal segmental vein",
+      "conceptId": "FMA9450",
+      "system": "venous"
+    },
+    {
+      "index": 269,
+      "id": "FJ2954",
+      "name": "Left lateral basal segmental vein",
+      "conceptId": "FMA9450",
+      "system": "venous"
+    },
+    {
+      "index": 270,
+      "id": "FJ2956",
+      "name": "Left anterior basal segmental vein",
+      "conceptId": "FMA8678",
+      "system": "venous"
+    },
+    {
+      "index": 271,
+      "id": "FJ2957",
+      "name": "Left anterior basal segmental vein",
+      "conceptId": "FMA8678",
+      "system": "venous"
+    },
+    {
+      "index": 272,
+      "id": "FJ2958",
+      "name": "Left apical segmental vein",
+      "conceptId": "FMA9437",
+      "system": "venous"
+    },
+    {
+      "index": 273,
+      "id": "FJ2959",
+      "name": "Left anterior basal segmental vein",
+      "conceptId": "FMA8678",
+      "system": "venous"
+    },
+    {
+      "index": 274,
+      "id": "FJ2960",
+      "name": "Left anterior basal segmental vein",
+      "conceptId": "FMA8678",
+      "system": "venous"
+    },
+    {
+      "index": 275,
+      "id": "FJ2961",
+      "name": "Left apical segmental vein",
+      "conceptId": "FMA9437",
+      "system": "venous"
+    },
+    {
+      "index": 276,
+      "id": "FJ2962",
+      "name": "Left apical segmental vein",
+      "conceptId": "FMA9437",
+      "system": "venous"
+    },
+    {
+      "index": 277,
+      "id": "FJ2963",
+      "name": "Left apical segmental vein",
+      "conceptId": "FMA9437",
+      "system": "venous"
+    },
+    {
+      "index": 278,
+      "id": "FJ2964",
+      "name": "Left apical segmental vein",
+      "conceptId": "FMA9437",
+      "system": "venous"
+    },
+    {
+      "index": 279,
+      "id": "FJ2965",
+      "name": "Left posterior segmental vein",
+      "conceptId": "FMA9438",
+      "system": "venous"
+    }
+  ]
+}

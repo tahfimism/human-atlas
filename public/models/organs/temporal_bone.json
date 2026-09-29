@@ -1,0 +1,57 @@
+{
+  "id": "FMA52737",
+  "name": "temporal bone",
+  "slug": "temporal_bone",
+  "elementsCount": 2,
+  "triangles": 5734,
+  "vertexCount": 3811,
+  "system": "skeletal",
+  "bounds": [
+    [
+      -0.07327324897050858,
+      -0.03801995515823364,
+      -0.04936170019209385
+    ],
+    [
+      0.07327324897050858,
+      0.03801995515823364,
+      0.04936170019209385
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.0739893987774849,
+      1.553591251373291,
+      -0.06498739868402481
+    ],
+    [
+      0.07255709916353226,
+      1.6296311616897583,
+      0.03373600170016289
+    ]
+  ],
+  "center": [
+    -0.0007161498069763184,
+    1.5916112065315247,
+    -0.01562569849193096
+  ],
+  "byteSize": 134832,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ3281",
+      "name": "Left temporal bone",
+      "conceptId": "FMA52739",
+      "system": "skeletal"
+    },
+    {
+      "index": 1,
+      "id": "FJ3386",
+      "name": "Right temporal bone",
+      "conceptId": "FMA52738",
+      "system": "skeletal"
+    }
+  ]
+}

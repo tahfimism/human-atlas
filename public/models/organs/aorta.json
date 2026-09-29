@@ -1,0 +1,78 @@
+{
+  "id": "FMA3734",
+  "name": "Aorta",
+  "slug": "aorta",
+  "elementsCount": 5,
+  "triangles": 2986,
+  "vertexCount": 1683,
+  "system": "arterial",
+  "bounds": [
+    [
+      -0.02082999050617218,
+      -0.18515551090240479,
+      -0.04616690054535866
+    ],
+    [
+      0.02082999050617218,
+      0.18515551090240479,
+      0.04616690054535866
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.00682218000292778,
+      1.0248901844024658,
+      -0.05489480122923851
+    ],
+    [
+      0.03483780100941658,
+      1.3952012062072754,
+      0.037438999861478806
+    ]
+  ],
+  "center": [
+    0.0140078105032444,
+    1.2100456953048706,
+    -0.008727900683879852
+  ],
+  "byteSize": 63000,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ1931",
+      "name": "Descending thoracic aorta",
+      "conceptId": "FMA87217",
+      "system": "arterial"
+    },
+    {
+      "index": 1,
+      "id": "FJ1932",
+      "name": "Abdominal aorta",
+      "conceptId": "FMA3789",
+      "system": "arterial"
+    },
+    {
+      "index": 2,
+      "id": "FJ3411",
+      "name": "Arch of aorta",
+      "conceptId": "FMA3768",
+      "system": "arterial"
+    },
+    {
+      "index": 3,
+      "id": "FJ3413",
+      "name": "Ascending aorta",
+      "conceptId": "FMA3736",
+      "system": "arterial"
+    },
+    {
+      "index": 4,
+      "id": "FJ3427",
+      "name": "Descending aorta",
+      "conceptId": "FMA3784",
+      "system": "arterial"
+    }
+  ]
+}

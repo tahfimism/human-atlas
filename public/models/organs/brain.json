@@ -1,0 +1,456 @@
+{
+  "id": "FMA50801",
+  "name": "brain",
+  "slug": "brain",
+  "elementsCount": 59,
+  "triangles": 15000,
+  "vertexCount": 13915,
+  "system": "cardiac",
+  "bounds": [
+    [
+      -0.06941690295934677,
+      -0.08296000957489014,
+      -0.09000315144658089
+    ],
+    [
+      0.06941690295934677,
+      0.08296000957489014,
+      0.09000315144658089
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.06994040310382843,
+      1.5426511764526367,
+      -0.11032930016517639
+    ],
+    [
+      0.06889340281486511,
+      1.708571195602417,
+      0.06967700272798538
+    ]
+  ],
+  "center": [
+    -0.0005235001444816589,
+    1.6256111860275269,
+    -0.020326148718595505
+  ],
+  "byteSize": 453124,
+  "decimated": true,
+  "decimationError": 0.015836,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ1730",
+      "name": "Third ventricle",
+      "conceptId": "FMA78454",
+      "system": "cardiac"
+    },
+    {
+      "index": 1,
+      "id": "FJ1731",
+      "name": "Fourth ventricle",
+      "conceptId": "FMA78469",
+      "system": "cardiac"
+    },
+    {
+      "index": 2,
+      "id": "FJ1732",
+      "name": "Left angular gyrus",
+      "conceptId": "FMA72670",
+      "system": "nervous"
+    },
+    {
+      "index": 3,
+      "id": "FJ1733",
+      "name": "Right angular gyrus",
+      "conceptId": "FMA72669",
+      "system": "nervous"
+    },
+    {
+      "index": 4,
+      "id": "FJ1738",
+      "name": "Cerebral aqueduct",
+      "conceptId": "FMA78467",
+      "system": "nervous"
+    },
+    {
+      "index": 5,
+      "id": "FJ1739",
+      "name": "Left cingulate gyrus",
+      "conceptId": "FMA72718",
+      "system": "nervous"
+    },
+    {
+      "index": 6,
+      "id": "FJ1740",
+      "name": "Right cingulate gyrus",
+      "conceptId": "FMA72717",
+      "system": "nervous"
+    },
+    {
+      "index": 7,
+      "id": "FJ1743",
+      "name": "Habenula",
+      "conceptId": "FMA62032",
+      "system": "nervous"
+    },
+    {
+      "index": 8,
+      "id": "FJ1744",
+      "name": "Left inferior frontal gyrus",
+      "conceptId": "FMA72658",
+      "system": "nervous"
+    },
+    {
+      "index": 9,
+      "id": "FJ1745",
+      "name": "Right inferior frontal gyrus",
+      "conceptId": "FMA72657",
+      "system": "nervous"
+    },
+    {
+      "index": 10,
+      "id": "FJ1746",
+      "name": "Left inferior temporal gyrus",
+      "conceptId": "FMA72688",
+      "system": "nervous"
+    },
+    {
+      "index": 11,
+      "id": "FJ1747",
+      "name": "Right inferior temporal gyrus",
+      "conceptId": "FMA72687",
+      "system": "nervous"
+    },
+    {
+      "index": 12,
+      "id": "FJ1748",
+      "name": "Left insula",
+      "conceptId": "FMA72978",
+      "system": "nervous"
+    },
+    {
+      "index": 13,
+      "id": "FJ1749",
+      "name": "Right insula",
+      "conceptId": "FMA72977",
+      "system": "nervous"
+    },
+    {
+      "index": 14,
+      "id": "FJ1750",
+      "name": "Left internal capsule",
+      "conceptId": "FMA72907",
+      "system": "nervous"
+    },
+    {
+      "index": 15,
+      "id": "FJ1751",
+      "name": "Right internal capsule",
+      "conceptId": "FMA72906",
+      "system": "nervous"
+    },
+    {
+      "index": 16,
+      "id": "FJ1758",
+      "name": "White matter of left cerebral hemisphere",
+      "conceptId": "FMA260794",
+      "system": "nervous"
+    },
+    {
+      "index": 17,
+      "id": "FJ1759",
+      "name": "Left hippocampus",
+      "conceptId": "FMA72714",
+      "system": "nervous"
+    },
+    {
+      "index": 18,
+      "id": "FJ1760",
+      "name": "Hypothalamus",
+      "conceptId": "FMA62008",
+      "system": "nervous"
+    },
+    {
+      "index": 19,
+      "id": "FJ1762",
+      "name": "Left inferior colliculus",
+      "conceptId": "FMA73435",
+      "system": "nervous"
+    },
+    {
+      "index": 20,
+      "id": "FJ1767",
+      "name": "Left lateral ventricle",
+      "conceptId": "FMA78450",
+      "system": "cardiac"
+    },
+    {
+      "index": 21,
+      "id": "FJ1769",
+      "name": "Medulla oblongata",
+      "conceptId": "FMA62004",
+      "system": "nervous"
+    },
+    {
+      "index": 22,
+      "id": "FJ1770",
+      "name": "Midbrain",
+      "conceptId": "FMA61993",
+      "system": "nervous"
+    },
+    {
+      "index": 23,
+      "id": "FJ1775",
+      "name": "Pons",
+      "conceptId": "FMA67943",
+      "system": "nervous"
+    },
+    {
+      "index": 24,
+      "id": "FJ1779",
+      "name": "Left superior colliculus",
+      "conceptId": "FMA73423",
+      "system": "nervous"
+    },
+    {
+      "index": 25,
+      "id": "FJ1780",
+      "name": "Tuber cinereum",
+      "conceptId": "FMA62327",
+      "system": "nervous"
+    },
+    {
+      "index": 26,
+      "id": "FJ1781",
+      "name": "Cerebellum",
+      "conceptId": "FMA67944",
+      "system": "nervous"
+    },
+    {
+      "index": 27,
+      "id": "FJ1783",
+      "name": "Left fusiform gyrus",
+      "conceptId": "FMA72690",
+      "system": "nervous"
+    },
+    {
+      "index": 28,
+      "id": "FJ1784",
+      "name": "Right fusiform gyrus",
+      "conceptId": "FMA72689",
+      "system": "nervous"
+    },
+    {
+      "index": 29,
+      "id": "FJ1785",
+      "name": "Left parahippocampal gyrus",
+      "conceptId": "FMA72706",
+      "system": "nervous"
+    },
+    {
+      "index": 30,
+      "id": "FJ1786",
+      "name": "Right parahippocampal gyrus",
+      "conceptId": "FMA72705",
+      "system": "nervous"
+    },
+    {
+      "index": 31,
+      "id": "FJ1787",
+      "name": "Left middle frontal gyrus",
+      "conceptId": "FMA72656",
+      "system": "nervous"
+    },
+    {
+      "index": 32,
+      "id": "FJ1788",
+      "name": "Right middle frontal gyrus",
+      "conceptId": "FMA72655",
+      "system": "nervous"
+    },
+    {
+      "index": 33,
+      "id": "FJ1789",
+      "name": "Left middle temporal gyrus",
+      "conceptId": "FMA72686",
+      "system": "nervous"
+    },
+    {
+      "index": 34,
+      "id": "FJ1790",
+      "name": "Right middle temporal gyrus",
+      "conceptId": "FMA72685",
+      "system": "nervous"
+    },
+    {
+      "index": 35,
+      "id": "FJ1791",
+      "name": "Left occipital lobe",
+      "conceptId": "FMA72976",
+      "system": "nervous"
+    },
+    {
+      "index": 36,
+      "id": "FJ1792",
+      "name": "Right occipital lobe",
+      "conceptId": "FMA72975",
+      "system": "nervous"
+    },
+    {
+      "index": 37,
+      "id": "FJ1795",
+      "name": "Pineal body",
+      "conceptId": "FMA62033",
+      "system": "endocrine"
+    },
+    {
+      "index": 38,
+      "id": "FJ1797",
+      "name": "Left postcentral gyrus",
+      "conceptId": "FMA72666",
+      "system": "nervous"
+    },
+    {
+      "index": 39,
+      "id": "FJ1798",
+      "name": "Right postcentral gyrus",
+      "conceptId": "FMA72665",
+      "system": "nervous"
+    },
+    {
+      "index": 40,
+      "id": "FJ1800",
+      "name": "Left precentral gyrus",
+      "conceptId": "FMA72662",
+      "system": "nervous"
+    },
+    {
+      "index": 41,
+      "id": "FJ1801",
+      "name": "Right precentral gyrus",
+      "conceptId": "FMA72661",
+      "system": "nervous"
+    },
+    {
+      "index": 42,
+      "id": "FJ1806",
+      "name": "White matter of right cerebral hemisphere",
+      "conceptId": "FMA260791",
+      "system": "nervous"
+    },
+    {
+      "index": 43,
+      "id": "FJ1807",
+      "name": "Right hippocampus",
+      "conceptId": "FMA72713",
+      "system": "nervous"
+    },
+    {
+      "index": 44,
+      "id": "FJ1808",
+      "name": "Hypothalamus",
+      "conceptId": "FMA62008",
+      "system": "nervous"
+    },
+    {
+      "index": 45,
+      "id": "FJ1810",
+      "name": "Right inferior colliculus",
+      "conceptId": "FMA73434",
+      "system": "nervous"
+    },
+    {
+      "index": 46,
+      "id": "FJ1814",
+      "name": "Right lateral ventricle",
+      "conceptId": "FMA78449",
+      "system": "cardiac"
+    },
+    {
+      "index": 47,
+      "id": "FJ1817",
+      "name": "Midbrain",
+      "conceptId": "FMA61993",
+      "system": "nervous"
+    },
+    {
+      "index": 48,
+      "id": "FJ1822",
+      "name": "Pons",
+      "conceptId": "FMA67943",
+      "system": "nervous"
+    },
+    {
+      "index": 49,
+      "id": "FJ1826",
+      "name": "Right superior colliculus",
+      "conceptId": "FMA73422",
+      "system": "nervous"
+    },
+    {
+      "index": 50,
+      "id": "FJ1828",
+      "name": "Tuber cinereum",
+      "conceptId": "FMA62327",
+      "system": "nervous"
+    },
+    {
+      "index": 51,
+      "id": "FJ1830",
+      "name": "Cerebellum",
+      "conceptId": "FMA67944",
+      "system": "nervous"
+    },
+    {
+      "index": 52,
+      "id": "FJ1831",
+      "name": "Medulla oblongata",
+      "conceptId": "FMA62004",
+      "system": "nervous"
+    },
+    {
+      "index": 53,
+      "id": "FJ1833",
+      "name": "Left superior frontal gyrus",
+      "conceptId": "FMA72654",
+      "system": "nervous"
+    },
+    {
+      "index": 54,
+      "id": "FJ1834",
+      "name": "Right superior frontal gyrus",
+      "conceptId": "FMA72653",
+      "system": "nervous"
+    },
+    {
+      "index": 55,
+      "id": "FJ1835",
+      "name": "Left superior parietal lobule",
+      "conceptId": "FMA72672",
+      "system": "nervous"
+    },
+    {
+      "index": 56,
+      "id": "FJ1836",
+      "name": "Right superior parietal lobule",
+      "conceptId": "FMA72671",
+      "system": "nervous"
+    },
+    {
+      "index": 57,
+      "id": "FJ1841",
+      "name": "Left supramarginal gyrus",
+      "conceptId": "FMA72668",
+      "system": "nervous"
+    },
+    {
+      "index": 58,
+      "id": "FJ1842",
+      "name": "Right supramarginal gyrus",
+      "conceptId": "FMA72667",
+      "system": "nervous"
+    }
+  ]
+}

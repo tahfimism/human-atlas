@@ -1,0 +1,71 @@
+{
+  "id": "FMA7198",
+  "name": "pancreas",
+  "slug": "pancreas",
+  "elementsCount": 4,
+  "triangles": 8564,
+  "vertexCount": 7694,
+  "system": "digestive",
+  "bounds": [
+    [
+      -0.06469065137207508,
+      -0.03687000274658203,
+      -0.02548349997960031
+    ],
+    [
+      0.06469065137207508,
+      0.03687000274658203,
+      0.02548349997960031
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.056706901639699936,
+      1.082471251487732,
+      -0.004588000010699034
+    ],
+    [
+      0.07267440110445023,
+      1.156211256980896,
+      0.04637899994850159
+    ]
+  ],
+  "center": [
+    0.007983749732375145,
+    1.119341254234314,
+    0.020895499968901277
+  ],
+  "byteSize": 252764,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ1895",
+      "name": "Pancreas",
+      "conceptId": "FMA7198",
+      "system": "digestive"
+    },
+    {
+      "index": 1,
+      "id": "FJ1896",
+      "name": "Pancreatic duct",
+      "conceptId": "FMA10419",
+      "system": "digestive"
+    },
+    {
+      "index": 2,
+      "id": "FJ2629",
+      "name": "Parenchyma of pancreas",
+      "conceptId": "FMA63120",
+      "system": "digestive"
+    },
+    {
+      "index": 3,
+      "id": "FJ2630",
+      "name": "Pancreatic duct tree",
+      "conceptId": "FMA63103",
+      "system": "digestive"
+    }
+  ]
+}

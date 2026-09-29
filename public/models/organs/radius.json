@@ -1,0 +1,57 @@
+{
+  "id": "FMA23463",
+  "name": "Radius",
+  "slug": "radius",
+  "elementsCount": 2,
+  "triangles": 814,
+  "vertexCount": 499,
+  "system": "skeletal",
+  "bounds": [
+    [
+      -0.27925150096416473,
+      -0.1145625114440918,
+      -0.033074699342250824
+    ],
+    [
+      0.27925150096416473,
+      0.1145625114440918,
+      0.033074699342250824
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.27935999631881714,
+      0.8839461803436279,
+      -0.038897398859262466
+    ],
+    [
+      0.27914300560951233,
+      1.1130712032318115,
+      0.02725199982523918
+    ]
+  ],
+  "center": [
+    -0.00010849535465240479,
+    0.9985086917877197,
+    -0.0058226995170116425
+  ],
+  "byteSize": 19176,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ3277",
+      "name": "Left radius",
+      "conceptId": "FMA23465",
+      "system": "skeletal"
+    },
+    {
+      "index": 1,
+      "id": "FJ3349",
+      "name": "Right radius",
+      "conceptId": "FMA23464",
+      "system": "skeletal"
+    }
+  ]
+}

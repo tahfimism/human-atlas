@@ -1,0 +1,92 @@
+{
+  "id": "FMA9915",
+  "name": "Cervical Vertebra",
+  "slug": "cervical_vertebra",
+  "elementsCount": 7,
+  "triangles": 12752,
+  "vertexCount": 8809,
+  "system": "skeletal",
+  "bounds": [
+    [
+      -0.04079764895141125,
+      -0.05836004018783569,
+      -0.03520230017602444
+    ],
+    [
+      0.04079764895141125,
+      0.05836004018783569,
+      0.03520230017602444
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.04136459901928902,
+      1.4428211450576782,
+      -0.07873360067605972
+    ],
+    [
+      0.04023069888353348,
+      1.5595412254333496,
+      -0.008329000324010849
+    ]
+  ],
+  "center": [
+    -0.0005669500678777695,
+    1.501181185245514,
+    -0.043531300500035286
+  ],
+  "byteSize": 306900,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ3161",
+      "name": "Third cervical vertebra",
+      "conceptId": "FMA12521",
+      "system": "skeletal"
+    },
+    {
+      "index": 1,
+      "id": "FJ3164",
+      "name": "Fourth cervical vertebra",
+      "conceptId": "FMA12522",
+      "system": "skeletal"
+    },
+    {
+      "index": 2,
+      "id": "FJ3167",
+      "name": "Fifth cervical vertebra",
+      "conceptId": "FMA12523",
+      "system": "skeletal"
+    },
+    {
+      "index": 3,
+      "id": "FJ3170",
+      "name": "Sixth cervical vertebra",
+      "conceptId": "FMA12524",
+      "system": "skeletal"
+    },
+    {
+      "index": 4,
+      "id": "FJ3172",
+      "name": "Seventh cervical vertebra",
+      "conceptId": "FMA12525",
+      "system": "skeletal"
+    },
+    {
+      "index": 5,
+      "id": "FJ3176",
+      "name": "Atlas",
+      "conceptId": "FMA12519",
+      "system": "skeletal"
+    },
+    {
+      "index": 6,
+      "id": "FJ3177",
+      "name": "Axis",
+      "conceptId": "FMA12520",
+      "system": "skeletal"
+    }
+  ]
+}

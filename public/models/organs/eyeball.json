@@ -1,0 +1,106 @@
+{
+  "id": "FMA12515",
+  "name": "Eyeball",
+  "slug": "eyeball",
+  "elementsCount": 9,
+  "triangles": 15000,
+  "vertexCount": 10666,
+  "system": "sensory",
+  "bounds": [
+    [
+      -0.013157900422811508,
+      -0.013114988803863525,
+      -0.01360049843788147
+    ],
+    [
+      0.013157900422811508,
+      0.013114988803863525,
+      0.01360049843788147
+    ]
+  ],
+  "originalBounds": [
+    [
+      0.01598919928073883,
+      1.583071231842041,
+      0.03883200138807297
+    ],
+    [
+      0.04230500012636185,
+      1.609301209449768,
+      0.06603299826383591
+    ]
+  ],
+  "center": [
+    0.02914709970355034,
+    1.5961862206459045,
+    0.05243249982595444
+  ],
+  "byteSize": 368656,
+  "decimated": true,
+  "decimationError": 0.00229,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ1282",
+      "name": "Anterior chamber of left eyeball",
+      "conceptId": "FMA58082",
+      "system": "sensory"
+    },
+    {
+      "index": 1,
+      "id": "FJ1285",
+      "name": "Left choroid",
+      "conceptId": "FMA58300",
+      "system": "sensory"
+    },
+    {
+      "index": 2,
+      "id": "FJ1286",
+      "name": "Left choroid",
+      "conceptId": "FMA58300",
+      "system": "sensory"
+    },
+    {
+      "index": 3,
+      "id": "FJ1289",
+      "name": "Left cornea",
+      "conceptId": "FMA58240",
+      "system": "sensory"
+    },
+    {
+      "index": 4,
+      "id": "FJ1297",
+      "name": "Left iris",
+      "conceptId": "FMA58237",
+      "system": "sensory"
+    },
+    {
+      "index": 5,
+      "id": "FJ1305",
+      "name": "Left lens",
+      "conceptId": "FMA58243",
+      "system": "sensory"
+    },
+    {
+      "index": 6,
+      "id": "FJ1317",
+      "name": "Left sclera",
+      "conceptId": "FMA58272",
+      "system": "sensory"
+    },
+    {
+      "index": 7,
+      "id": "FJ1320",
+      "name": "Suspensory ligament of left lens",
+      "conceptId": "FMA58840",
+      "system": "sensory"
+    },
+    {
+      "index": 8,
+      "id": "FJ1331",
+      "name": "Left vitreous body",
+      "conceptId": "FMA58829",
+      "system": "sensory"
+    }
+  ]
+}

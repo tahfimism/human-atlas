@@ -1,0 +1,211 @@
+{
+  "id": "FMA7574",
+  "name": "Ribs",
+  "slug": "ribs",
+  "elementsCount": 24,
+  "triangles": 15000,
+  "vertexCount": 7672,
+  "system": "skeletal",
+  "bounds": [
+    [
+      -0.13637950271368027,
+      -0.1812000274658203,
+      -0.09700829535722733
+    ],
+    [
+      0.13637950271368027,
+      0.1812000274658203,
+      0.09700829535722733
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.13702499866485596,
+      1.086191177368164,
+      -0.09635858982801437
+    ],
+    [
+      0.13573400676250458,
+      1.4485912322998047,
+      0.09765800088644028
+    ]
+  ],
+  "center": [
+    -0.0006454959511756897,
+    1.2673912048339844,
+    0.0006497055292129517
+  ],
+  "byteSize": 290796,
+  "decimated": true,
+  "decimationError": 0.000897,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ3225",
+      "name": "Left tenth rib",
+      "conceptId": "FMA8472",
+      "system": "skeletal"
+    },
+    {
+      "index": 1,
+      "id": "FJ3226",
+      "name": "Left eleventh rib",
+      "conceptId": "FMA8532",
+      "system": "skeletal"
+    },
+    {
+      "index": 2,
+      "id": "FJ3227",
+      "name": "Left twelfth rib",
+      "conceptId": "FMA8534",
+      "system": "skeletal"
+    },
+    {
+      "index": 3,
+      "id": "FJ3228",
+      "name": "Left first rib",
+      "conceptId": "FMA7987",
+      "system": "skeletal"
+    },
+    {
+      "index": 4,
+      "id": "FJ3229",
+      "name": "Left second rib",
+      "conceptId": "FMA8012",
+      "system": "skeletal"
+    },
+    {
+      "index": 5,
+      "id": "FJ3230",
+      "name": "Left third rib",
+      "conceptId": "FMA8039",
+      "system": "skeletal"
+    },
+    {
+      "index": 6,
+      "id": "FJ3231",
+      "name": "Left fourth rib",
+      "conceptId": "FMA8148",
+      "system": "skeletal"
+    },
+    {
+      "index": 7,
+      "id": "FJ3232",
+      "name": "Left fifth rib",
+      "conceptId": "FMA8093",
+      "system": "skeletal"
+    },
+    {
+      "index": 8,
+      "id": "FJ3233",
+      "name": "Left sixth rib",
+      "conceptId": "FMA8202",
+      "system": "skeletal"
+    },
+    {
+      "index": 9,
+      "id": "FJ3234",
+      "name": "Left seventh rib",
+      "conceptId": "FMA8256",
+      "system": "skeletal"
+    },
+    {
+      "index": 10,
+      "id": "FJ3235",
+      "name": "Left eighth rib",
+      "conceptId": "FMA8310",
+      "system": "skeletal"
+    },
+    {
+      "index": 11,
+      "id": "FJ3236",
+      "name": "Left ninth rib",
+      "conceptId": "FMA8391",
+      "system": "skeletal"
+    },
+    {
+      "index": 12,
+      "id": "FJ3330",
+      "name": "Right tenth rib",
+      "conceptId": "FMA8445",
+      "system": "skeletal"
+    },
+    {
+      "index": 13,
+      "id": "FJ3331",
+      "name": "Right eleventh rib",
+      "conceptId": "FMA8531",
+      "system": "skeletal"
+    },
+    {
+      "index": 14,
+      "id": "FJ3332",
+      "name": "Right twelfth rib",
+      "conceptId": "FMA8533",
+      "system": "skeletal"
+    },
+    {
+      "index": 15,
+      "id": "FJ3334",
+      "name": "Right first rib",
+      "conceptId": "FMA7857",
+      "system": "skeletal"
+    },
+    {
+      "index": 16,
+      "id": "FJ3336",
+      "name": "Right second rib",
+      "conceptId": "FMA7882",
+      "system": "skeletal"
+    },
+    {
+      "index": 17,
+      "id": "FJ3338",
+      "name": "Right third rib",
+      "conceptId": "FMA7909",
+      "system": "skeletal"
+    },
+    {
+      "index": 18,
+      "id": "FJ3340",
+      "name": "Right fourth rib",
+      "conceptId": "FMA7957",
+      "system": "skeletal"
+    },
+    {
+      "index": 19,
+      "id": "FJ3342",
+      "name": "Right fifth rib",
+      "conceptId": "FMA8066",
+      "system": "skeletal"
+    },
+    {
+      "index": 20,
+      "id": "FJ3344",
+      "name": "Right sixth rib",
+      "conceptId": "FMA8175",
+      "system": "skeletal"
+    },
+    {
+      "index": 21,
+      "id": "FJ3346",
+      "name": "Right seventh rib",
+      "conceptId": "FMA8229",
+      "system": "skeletal"
+    },
+    {
+      "index": 22,
+      "id": "FJ3347",
+      "name": "Right eighth rib",
+      "conceptId": "FMA8283",
+      "system": "skeletal"
+    },
+    {
+      "index": 23,
+      "id": "FJ3348",
+      "name": "Right ninth rib",
+      "conceptId": "FMA8364",
+      "system": "skeletal"
+    }
+  ]
+}

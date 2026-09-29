@@ -1,0 +1,57 @@
+{
+  "id": "FMA22430",
+  "name": "Rectus Femoris",
+  "slug": "rectus_femoris",
+  "elementsCount": 2,
+  "triangles": 2500,
+  "vertexCount": 1828,
+  "system": "muscular",
+  "bounds": [
+    [
+      -0.154449000954628,
+      -0.2781979888677597,
+      -0.03428310062736273
+    ],
+    [
+      0.154449000954628,
+      0.2781979888677597,
+      0.03428310062736273
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.154449000954628,
+      0.39281919598579407,
+      -0.01610019989311695
+    ],
+    [
+      0.154449000954628,
+      0.9492151737213135,
+      0.052466001361608505
+    ]
+  ],
+  "center": [
+    0,
+    0.6710171848535538,
+    0.018182900734245777
+  ],
+  "byteSize": 63864,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ1433",
+      "name": "Right rectus femoris",
+      "conceptId": "FMA38928",
+      "system": "muscular"
+    },
+    {
+      "index": 1,
+      "id": "FJ1433M",
+      "name": "Left rectus femoris",
+      "conceptId": "FMA38929",
+      "system": "muscular"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "FMA7485",
+  "name": "Sternum",
+  "slug": "sternum",
+  "elementsCount": 3,
+  "triangles": 5566,
+  "vertexCount": 4069,
+  "system": "skeletal",
+  "bounds": [
+    [
+      -0.027449699118733406,
+      -0.08061498403549194,
+      -0.04151549842208624
+    ],
+    [
+      0.027449699118733406,
+      0.08061498403549194,
+      0.04151549842208624
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.027449699118733406,
+      1.242131233215332,
+      0.03080100007355213
+    ],
+    [
+      0.027449699118733406,
+      1.403361201286316,
+      0.11383199691772461
+    ]
+  ],
+  "center": [
+    0,
+    1.322746217250824,
+    0.07231649849563837
+  ],
+  "byteSize": 140524,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ3153",
+      "name": "Xiphoid process",
+      "conceptId": "FMA7488",
+      "system": "skeletal"
+    },
+    {
+      "index": 1,
+      "id": "FJ3178",
+      "name": "Body of sternum",
+      "conceptId": "FMA7487",
+      "system": "skeletal"
+    },
+    {
+      "index": 2,
+      "id": "FJ3290",
+      "name": "Manubrium",
+      "conceptId": "FMA7486",
+      "system": "skeletal"
+    }
+  ]
+}

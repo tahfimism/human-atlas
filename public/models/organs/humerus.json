@@ -1,0 +1,57 @@
+{
+  "id": "FMA13303",
+  "name": "Humerus",
+  "slug": "humerus",
+  "elementsCount": 2,
+  "triangles": 2032,
+  "vertexCount": 1380,
+  "system": "skeletal",
+  "bounds": [
+    [
+      -0.2407514974474907,
+      -0.15358000993728638,
+      -0.024594950897153467
+    ],
+    [
+      0.2407514974474907,
+      0.15358000993728638,
+      0.024594950897153467
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.2407439947128296,
+      1.107471227645874,
+      -0.04896090179681778
+    ],
+    [
+      0.2407590001821518,
+      1.4146312475204468,
+      0.00022899999748915434
+    ]
+  ],
+  "center": [
+    0.000007502734661102295,
+    1.2610512375831604,
+    -0.024365950899664313
+  ],
+  "byteSize": 49396,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ3262",
+      "name": "Left humerus",
+      "conceptId": "FMA23131",
+      "system": "skeletal"
+    },
+    {
+      "index": 1,
+      "id": "FJ3368",
+      "name": "Right humerus",
+      "conceptId": "FMA23130",
+      "system": "skeletal"
+    }
+  ]
+}

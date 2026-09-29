@@ -1,0 +1,57 @@
+{
+  "id": "FMA67944",
+  "name": "cerebellum",
+  "slug": "cerebellum",
+  "elementsCount": 2,
+  "triangles": 10492,
+  "vertexCount": 5506,
+  "system": "nervous",
+  "bounds": [
+    [
+      -0.053255099803209305,
+      -0.026620030403137207,
+      -0.02812115103006363
+    ],
+    [
+      0.053255099803209305,
+      0.026620030403137207,
+      0.02812115103006363
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.053900301456451416,
+      1.5653711557388306,
+      -0.08779480308294296
+    ],
+    [
+      0.052609898149967194,
+      1.618611216545105,
+      -0.031552501022815704
+    ]
+  ],
+  "center": [
+    -0.0006452016532421112,
+    1.5919911861419678,
+    -0.059673652052879333
+  ],
+  "byteSize": 207448,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ1781",
+      "name": "Cerebellum",
+      "conceptId": "FMA67944",
+      "system": "nervous"
+    },
+    {
+      "index": 1,
+      "id": "FJ1830",
+      "name": "Cerebellum",
+      "conceptId": "FMA67944",
+      "system": "nervous"
+    }
+  ]
+}

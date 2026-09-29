@@ -1,0 +1,57 @@
+{
+  "id": "FMA22314",
+  "name": "Gluteus Maximus",
+  "slug": "gluteus_maximus",
+  "elementsCount": 2,
+  "triangles": 2476,
+  "vertexCount": 2664,
+  "system": "muscular",
+  "bounds": [
+    [
+      -0.1454010009765625,
+      -0.13240596652030945,
+      -0.048938898369669914
+    ],
+    [
+      0.1454010009765625,
+      0.13240596652030945,
+      0.048938898369669914
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.1454010009765625,
+      0.7458562254905701,
+      -0.11986629664897919
+    ],
+    [
+      0.1454010009765625,
+      1.010668158531189,
+      -0.02198849990963936
+    ]
+  ],
+  "center": [
+    0,
+    0.8782621920108795,
+    -0.07092739827930927
+  ],
+  "byteSize": 85464,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ1418",
+      "name": "Right gluteus maximus",
+      "conceptId": "FMA22328",
+      "system": "muscular"
+    },
+    {
+      "index": 1,
+      "id": "FJ1418M",
+      "name": "Left gluteus maximus",
+      "conceptId": "FMA22329",
+      "system": "muscular"
+    }
+  ]
+}

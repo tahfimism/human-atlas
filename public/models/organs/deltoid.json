@@ -1,0 +1,85 @@
+{
+  "id": "FMA34676",
+  "name": "Deltoid",
+  "slug": "deltoid",
+  "elementsCount": 6,
+  "triangles": 6432,
+  "vertexCount": 7494,
+  "system": "muscular",
+  "bounds": [
+    [
+      -0.22722800076007843,
+      -0.08382004499435425,
+      -0.05930293817073107
+    ],
+    [
+      0.22722800076007843,
+      0.08382004499435425,
+      0.05930293817073107
+    ]
+  ],
+  "originalBounds": [
+    [
+      -0.22722800076007843,
+      1.2658611536026,
+      -0.09727487713098526
+    ],
+    [
+      0.22722800076007843,
+      1.4335012435913086,
+      0.021330999210476875
+    ]
+  ],
+  "center": [
+    0,
+    1.3496811985969543,
+    -0.03797193896025419
+  ],
+  "byteSize": 234768,
+  "decimated": false,
+  "decimationError": 0,
+  "parts": [
+    {
+      "index": 0,
+      "id": "FJ1467",
+      "name": "Acromial part of right deltoid",
+      "conceptId": "FMA34682",
+      "system": "muscular"
+    },
+    {
+      "index": 1,
+      "id": "FJ1467M",
+      "name": "Acromial part of left deltoid",
+      "conceptId": "FMA34683",
+      "system": "muscular"
+    },
+    {
+      "index": 2,
+      "id": "FJ1468",
+      "name": "Clavicular part of right deltoid",
+      "conceptId": "FMA34680",
+      "system": "muscular"
+    },
+    {
+      "index": 3,
+      "id": "FJ1468M",
+      "name": "Clavicular part of left deltoid",
+      "conceptId": "FMA34681",
+      "system": "muscular"
+    },
+    {
+      "index": 4,
+      "id": "FJ1513",
+      "name": "Spinal part of right deltoid",
+      "conceptId": "FMA34684",
+      "system": "muscular"
+    },
+    {
+      "index": 5,
+      "id": "FJ1513M",
+      "name": "Spinal part of left deltoid",
+      "conceptId": "FMA34685",
+      "system": "muscular"
+    }
+  ]
+}
