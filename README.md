@@ -2,11 +2,21 @@
 
 An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Take the BodyParts3D adult male reference apart into **2,234 individually selectable meshes**, explore **15 anatomical systems**, and search **3,432 named concepts**.
 
-**[Explore the live demo](https://human-atlas-seven.vercel.app)**
+**[Explore the live production demo](https://human-atlas-sage.vercel.app)** · **[Developer Integration Guide (INTEGRATION.md)](INTEGRATION.md)**
+
+## Integration & Real-App Embedding
+
+Looking to embed the Human Atlas in your medical app, e-learning platform, or AI chatbot (e.g. Protiva / Study AI)?
+
+* **Complete Integration Guide**: Read [**INTEGRATION.md**](INTEGRATION.md) for full URL documentation, complete catalog of 61 standalone Micro-GLBs, bidirectional `postMessage` RPC API, subpart double-click isolation, cross-sectional slicing, quiz mode, and React/Iframe code snippets.
+* **Live Base URL**: `https://human-atlas-sage.vercel.app` (CORS enabled, iframe embed ready).
 
 ## Explore
 
 - Orbit, zoom, and select structures directly on the body.
+- Subpart double-click / double-tap to isolate individual valves, chambers, and bones (0ms network cost).
+- Hardware GPU cross-sectional slicing (`coronal`, `axial`, `sagittal`).
+- Interactive Quiz & Find mode with automated click evaluation.
 - Toggle individual systems or use skeleton and organ presets.
 - Move from assembled anatomy to a spaced inventory of every visible piece.
 - Search anatomical names and source identifiers.
