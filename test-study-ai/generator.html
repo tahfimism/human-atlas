@@ -169,8 +169,9 @@
       badge.textContent = 'RENDERING...';
       badge.className = 'badge pending';
 
-      // Load Atlas in headless mini snapshot mode on port 3016
-      frame.src = `http://localhost:3016/?organ=${organ.id}&isolate=true&embed=true&mini=true&snapshot=true&transparent=true`;
+      // Load Atlas in headless mini snapshot mode
+      const base = window.ATLAS_BASE_URL || 'https://human-atlas-sage.vercel.app';
+      frame.src = `${base}/?organ=${organ.id}&isolate=true&embed=true&mini=true&snapshot=true&transparent=true`;
     }
 
     window.addEventListener('message', async (e) => {
