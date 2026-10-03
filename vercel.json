@@ -22,11 +22,23 @@
       ]
     },
     {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
       "source": "/(.*)",
       "headers": [
         { "key": "Access-Control-Allow-Origin", "value": "*" },
         { "key": "Content-Security-Policy", "value": "frame-ancestors *" }
       ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/((?!assets/|models/|thumbnails/|favicon\\.ico).*)",
+      "destination": "/index.html"
     }
   ]
 }
